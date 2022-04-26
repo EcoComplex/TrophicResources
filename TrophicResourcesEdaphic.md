@@ -120,11 +120,11 @@ Ecosystem sustainable use requires reliable information about its biotic and abi
 
  This review gathers the information currently available regarding the
  use of trophic resources by the edaphic microarthropods. This
- information, together with other characteristic features of the soil
+ information, together with other characteristic features of the soil
  microarthropods, will allow building a food web interactions network,
  that could result in a better understanding of the structure and
  functioning of the edaphic biota (FAO, 2020). Trophic networks will,
- in turn, allow for comparing the state of different soils, or the same
+ in turn, allow for comparing the state of different soils, or the same
  soils under different intensities of anthropic impact (Thompson et
  al., 2012).
 
@@ -145,8 +145,8 @@ Ecosystem sustainable use requires reliable information about its biotic and abi
 
 ### Empirical evidence
 
- The empirical evidence provided through studies carried out under
- laboratory conditions (A) can be based on **observations** of the
+The empirical evidence provided through studies carried out under  <!-- Esto es un comentario -->
+ laboratory conditions (A) can be based on **observations** of the 
  feeding behavior of the animals under study, on studying **food
  preferences,** or **tests** to study other interactions or biological
  phenomena related to diet, in general, the tests they are made using
@@ -647,7 +647,7 @@ The empirical evidence that addresses the trophic study of Arthropleona (Collemb
  functioning: A consensus of current knowledge. Ecol. Monogr. 75, 33.
  [[https://doi.org/10.1890/04-0922]{.ul}](https://doi.org/10.1890/04-0922)
 
- Hopkin, S. P. (1997). Biology of the springtails: (Insecta:
+ Hopkin, S. P. (1997). Biology of the springtails: (Insecta:
  Collembola). Oxford University Press. Oxford, UK. 340 pp.
 
  Hubert J, Žilová M, Pekár, S., 2001. Feeding preferences and gut
