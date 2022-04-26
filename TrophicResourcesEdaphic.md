@@ -751,7 +751,9 @@ The empirical evidence that addresses the trophic study of Arthropleona (Collemb
 
  Ponge JF., 1991. Food resources and diets of soil animals in a small
  area of Scots pine litter. Geoderma. 49, 33--62.
- https://doi.org/10.1016/0016-7061(91)90090-G
+ <https://doi.org/10.1016/0016-7061(91)90090-G>
+
+ Potapov AM, Beaulieu F, Birrkhofer K, Bluhm SL, Degtyarev MI, Devetter M, Goncharov AA, Gongalsky KB, Klarner B, Korobushkin DI, Liebke DF, Maraun M, Mc Donnell RJ, Pollierer MM, Schaefer I, Shrubovych J, Semenyuk I I, Sendra A, Tuma J, Tůmová M, Vassilieva AB, Chen T, Geisen S, Schmidt O, Tiunov AV, Scheu S. 2022. Feeding habits and multifunctional classification of soil-associated consumers from protists to vertebrates. Biological Reviews <https://doi.org/10.1111/brv.12832>
 
  Potapov AM, Pollierer MM, Salmon S, Šustr V, Chen TW., 2020.
  Multidimensional trophic niche approach: gut content, digestive
@@ -931,10 +933,10 @@ McClaugherty 2008 ^b^Clark 1971 ^c^Warcup 1971 ^d^Ponge 1991
 \vtop{\hbox{\strut M}\hbox{\strut (136)}} &
 \vtop{\hbox{\strut S}\hbox{\strut (264)}} &
 \vtop{\hbox{\strut T}\hbox{\strut (22)}} &
-\vtop{\hbox{\strut A}\hbox{\strut (154)}} &
+\vtop{\hbox{\strut A}\hbox{\strut (155)}} &
 \vtop{\hbox{\strut N}\hbox{\strut (1)}} &
 \vtop{\hbox{\strut Sy}\hbox{\strut (13)}} \\ \addlinespace
-\textbf{Saprophytic fungi} & 7 & 68 & 10 & 9 & 1 & 2 & 11 & 119 & 10 &
+\textbf{Saprophytic fungi} & 7 & 68 & 10 & 9 & 1 & 2 & 11 & 120 & 10 &
 54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace
 \textbf{Microfauna} & 32 & 26 & 23 & 8 & 0 & 0 & 80 & 40 & 4 & 33 & 0 &
 0 & 106 & 47 & 0 & 39 & 0 & 0 \\ \addlinespace
@@ -943,7 +945,7 @@ McClaugherty 2008 ^b^Clark 1971 ^c^Warcup 1971 ^d^Ponge 1991
 \textbf{Litter} & 0 & 43 & 0 & 8 & 1 & 3 & 0 & 79 & 0 & 35 & 1 & 6 & 0 &
 124 & 0 & 59 & 1 & 5 \\ \addlinespace
 \textbf{Mycorrhizal fungi} & 2 & 31 & 3 & 7 & 0 & 1 & 1 & 44 & 0 & 28 &
-0 & 2 & 0 & 54 & 0 & 45 & 0 & 2 \\ \addlinespace
+0 & 2 & 0 & 54 & 0 & 46 & 0 & 2 \\ \addlinespace
 \textbf{Plant tissue} & 0 & 42 & 5 & 7 & 0 & 2 & 0 & 72 & 4 & 20 & 0 & 7
 & 0 & 100 & 3 & 26 & 0 & 7 \\ \addlinespace
 \textbf{Springtails} & 24 & 0 & 27 & 2 & 0 & 0 & 53 & 0 & 13 & 3 & 0 & 0
