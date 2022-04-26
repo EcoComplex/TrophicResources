@@ -19,7 +19,7 @@ World1 <- sp::merge(World,bib, by.x="name",by.y="Country",all.x=TRUE)
 ## The working directory should be set the the parent folder of this script.
 ###########################################################################
 
-## install.packages(c("tmap", "tmaptools"))
+#install.packages(c("tmap", "tmaptools"))
 library("tmap") # required version 2.0 or later
 library("tmaptools") # required version 2.0 or later
 
@@ -40,7 +40,7 @@ m1
 
 
 
-m3 <- tm_shape(World1, projection = robin) +
+m3 <- tm_shape(World1, projection = "+proj=robin") +
   tm_polygons(c("n"),
               palette = "Paired",  # "RdYlGn"
               style = c("fixed"),

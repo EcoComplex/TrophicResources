@@ -326,7 +326,7 @@ b- or if the taxa are grouped in some guild or trophic category, then each taxon
  empirical evidence from the database with 706 records (Figure 2).
 
 
-![Methods used in the literature to assign trophic resources to soil mesofauna taxa. Colors within columns refer to the number of different taxonomic levels for which each method assigned at least one resource. Assay: laboratory tests and observations. Isotopes: stable isotopes. Gut: intestinal content. Enzymes: Digestive enzymes. Mouth: mouthparts morphology. Lipid: lipid profile. Mo. det: molecular detection of intestinal content, f.p.: Food preference assays. Obs.: direct lab observations of feeding activity. Reviews: general reviews by other authors.](Figures/Metodo_ByTaxLevel.jpeg){width="4.920138888888889in"
+![Methods used in the literature to assign trophic resources to soil mesofauna taxa. Colors within columns refer to the number of different taxonomic levels for which each method assigned at least one resource. Assay: laboratory tests and observations. Isotopes: stable isotopes. Gut: intestinal content. Enzymes: Digestive enzymes. Mouth: mouthparts morphology. Lipid: lipid profile. Mo. det: molecular detection of intestinal content, f.p.: Food preference assays. Obs.: direct lab observations of feeding activity. Reviews: general reviews by other authors.](Figures/Metodo_ByTaxLevel.png){width="4.920138888888889in"
  height="4.920138888888889in"}
 
  Microarthropods at the family level constitute 9.3% of the
@@ -370,8 +370,7 @@ b- or if the taxa are grouped in some guild or trophic category, then each taxon
  consumption, of which 16 were associated with the taxonomic level of
  the family, 105 to the genus level, and 471 to the species level.
 
-![The number of records in the literature assigning each one of the 13 trophic resources to a mesofauna taxon as shown in Table 1. Colors in the columns refer to the method used to assign those trophic resources to a particular taxon. Methods as in Fig. 2.](Figures/Recursos_ByMetodo.jpeg){width="5.116666666666666in"
- height="5.116666666666666in"}
+![The number of records in the literature assigning each one of the 13 trophic resources to a mesofauna taxon as shown in Table 1. Colors in the columns refer to the method used to assign those trophic resources to a particular taxon. Methods as in Fig. 2.](Figures/Recursos_ByMetodo.png){width="5.116666666666666in" height="5.116666666666666in"}
 
  Laboratory observations (the most used method), mention the use of the
  thirteen trophic resources (Figure 3) in which the order of importance
@@ -428,7 +427,7 @@ b- or if the taxa are grouped in some guild or trophic category, then each taxon
 The empirical evidence that addresses the trophic study of Arthropleona (Collembola) is represented by 154 different species, these were mainly associated with saprophytic fungi (119 species), followed in importance by bacteria, litter and humus. The microfauna is mentioned as a resource for 39 species.
 
 
-![Bipartite graph showing the use of trophic resources by the main orders of Acari and Collembola. Upper nodes: Acari and Collembola orders as in Table 2. Lower nodes: trophic resources. The thickness and intensity of the lines give an idea of the proportion of mentions in the available literature about their use of trophic resources. Resource names as in Tables 1 and 2.](Figures/Bi_Orden_Recurso.jpeg){width="5.4125in"
+![Bipartite graph showing the use of trophic resources by the main orders of Acari and Collembola. Upper nodes: Acari and Collembola orders as in Table 2. Lower nodes: trophic resources. The thickness and intensity of the lines give an idea of the proportion of mentions in the available literature about their use of trophic resources. Resource names as in Tables 1 and 2.](Figures/Bi_Orden_Recurso.png){width="5.4125in"
  height="3.6083333333333334in"}
 
  Figure 4 presents the proportion of resources used by the main 3 mite

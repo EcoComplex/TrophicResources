@@ -5,7 +5,7 @@
 require(tidyverse)
 require(forcats)
 
-data <- read_csv2("Data/ecologia_trofica_21.csv",locale = readr::locale(encoding = "ISO-8859-1")) %>% mutate(METHOD=ifelse(is.na(METHOD), "review", METHOD ))
+data <- read_csv2("Data/ecologia_trofica_22.csv",locale = readr::locale(encoding = "ISO-8859-1")) %>% mutate(METHOD=ifelse(is.na(METHOD), "review", METHOD ))
 names(data)
 str(data)
 
@@ -34,7 +34,7 @@ frec_data  %>% ggplot( aes(x=METHOD, y=n, fill=TAXONOMIC_LEVEL)) +
   scale_fill_brewer(palette="Paired",name="Taxonomic\nLevel")+ xlab("Method")+
   theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1)) 
 
-ggsave("Figures/Metodo_ByTaxLevel.jpeg",width=6,height=6,units="in",dpi=600)
+ggsave("Figures/Metodo_ByTaxLevel.png",width=6,height=6,units="in",dpi=600)
 
 
 #
@@ -53,10 +53,11 @@ ggplot(data=frec_data, aes(x=RESOURCE, y=n, fill=TAXONOMIC_LEVEL)) +
   scale_fill_brewer(palette="Paired",name="Taxonomic\nLevel")+ xlab("Resource")+
   theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
 
-ggsave("Figures/Recursos_ByTaxLevel.jpeg",width=6,height=6,units="in",dpi=600)
+ggsave("Figures/Recursos_ByTaxLevel.png",width=6,height=6,units="in",dpi=600)
+
 
 #
-# Agrupar por TAXONOMICO por METODO para grafico --- limpiar columnas con nombre parecido 
+# Resources by method
 #
 frec_data <- data %>% group_by(METHOD,RESOURCE) %>% summarise(n=n()) 
 
@@ -70,10 +71,12 @@ ggplot(data=frec_data, aes(x=RESOURCE, y=n, fill=METHOD)) +
   scale_fill_brewer(palette="Paired",name="Method")+ xlab("Resource")+
   theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1))
 
-ggsave("Figures/Recursos_ByMetodo.jpeg",width=6,height=6,units="in",dpi=600)
+ggsave("Figures/Recursos_ByMetodo.png",width=6,height=6,units="in",dpi=600)
 
 
 
+#
+# Resurces distribution by GENERA  NOT USED IN THE PAPER
 #
 # Distribucion de recursos por grupo taxonomico (GENERO) --- Agregar columna grupo trofico
 #
@@ -94,12 +97,16 @@ ggplot(data=distr_data, aes(y=TaxonomicGroup, x=n, color=n,)) +
   scale_color_viridis_c(guide=FALSE,option="B")+
   theme_classic() + theme(axis.text.x=element_blank()) + facet_wrap( ~SUBCLASE) + coord_flip()
 
-ggsave("Figures/Distrib_Res_ByTaxGr.jpeg",width=6,height=6,units="in",dpi=600)
+# ggsave("Figures/Distrib_Res_ByTaxGr.jpeg",width=6,height=6,units="in",dpi=600)
 
+
+#
+# There is a 20% that has >= 7 resources, 60% has 6-3, 20% has 1-2 resources
 #
 # Hay un 20% que tiene >= 7 recursos, 60% tiene 6- 3 , 20% tiene 1-2 recursos
 #
 
+# Distribution of number of taxonomic groups per resource = WHICH ARE THE MOST USED RESOURCES --> NOT USED IN THE PAPER
 #
 # Distribucion de cantidad de grupos taxonomicos por recurso = CUALES SON LOS RECURSOS mas usados
 #
@@ -111,7 +118,7 @@ ggplot(data=distr_data, aes(x=Resource, y=n, fill=Resource)) +
   scale_fill_viridis_d(guide=FALSE,option="B")+
   theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust = 1,size=8))
 
-ggsave("Figures/Distrib_TaxGr_ByRes.jpeg",width=6,height=6,units="in",dpi=600)
+# ggsave("Figures/Distrib_TaxGr_ByRes.jpeg",width=6,height=6,units="in",dpi=600)
 
 
 #
@@ -122,27 +129,8 @@ ggsave("Figures/Distrib_TaxGr_ByRes.jpeg",width=6,height=6,units="in",dpi=600)
 
 
 #
-# Frecuencia de RECURSO por GENERO en cantidad de citas (SIRVE PARA HACER EL TRIANGULO)
+# Bipartite graph 
 #
-data_recurso <- data %>% group_by(GENERA,RESOURCE)  %>% summarise(n=n()) %>% mutate(freq = n / sum(n))
-
-#
-# Frecuencia de RECURSO por FAMILIA en cantidad de citas (SIRVE PARA HACER EL TRIANGULO)
-#
-data_recurso <- data %>% filter(!is.na(FAMILY)) %>% group_by(FAMILY,RESOURCE)  %>% summarise(n=n()) %>% mutate(freq = n / sum(n))
-write_csv(data_recurso,"data_caja_familia.csv")
-
-#
-# Citas por METODO 
-#
-data_metodo <- data %>% group_by(Cita,METHOD) %>% summarise(n=n())
-
-#
-# Graficos ternarios
-#
-# https://cran.r-project.org/web/packages/Ternary/vignettes/Ternary.html
-#
-# install.packages('Ternary')
 
 data_recurso <- data %>% drop_na(ORDER) %>% filter(ORDER!="Holothyrida") %>%  group_by(ORDER,RESOURCE) %>% summarise(n=n()) %>% mutate(freq = n / sum(n)) %>% select(RESOURCE,ORDER,freq) 
 require(igraph)
@@ -165,8 +153,5 @@ ggraph(g, layout="bipartite") +
   theme_graph() +
   scale_color_viridis_d(option="plasma",guide=NULL) + theme(legend.position="none") 
 
-ggsave("Figures/Bi_Orden_Recurso.jpeg",width=9,height=6,units="in",dpi=600)
-#
-# Guardar como PDF y editar
-#
+ggsave("Figures/Bi_Orden_Recurso.png",width=9,height=6,units="in",dpi=600)
 
