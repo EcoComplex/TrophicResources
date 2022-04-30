@@ -1,5 +1,7 @@
 # Trophic resources of the edaphic microarthropods: a worldwide review of the empirical evidence
 
+[![DOI](https://zenodo.org/badge/485574612.svg)](https://zenodo.org/badge/latestdoi/485574612)
+
 ## Preprint 
 
 <https://doi.org/10.1101/2021.02.06.430061> 
