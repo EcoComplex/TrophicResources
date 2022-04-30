@@ -256,6 +256,38 @@ b) or if the taxa are grouped in some guild or trophic category, then each taxon
 
 Based on this allocation strategy, we developed a database presented in Supplementary material II. The taxonomic information and the trophic resources were obtained from the different sections of the publications and their appendices (Thakur et al., 2020). In a complementary way, each taxon found has all the classification levels according to Krantz 2009 and Hopkin 2007, for mites and springtails respectively. The database is also available in the github repository <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://zenodo.org/record/XXXXXXX>.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**Trophic Resource**        **Description**                                                                                            **Total consumer records (%)**    Family   Genera    Species                    
+-------------------------- ---------------------------------------------------------------------------------------------------------- --------------------------------- -------- --------- ---------
+**Saprophytic fungi**      They are ubiquitous soil fungi that break down organic matter.^c^                                          **595 (19,7)**                    **16**   **105**   **474**
+                                                                                                                                                                                           
+**Microfauna**             Soil nematodes and protozoa, tardigrades, rotifers, and other edaphic microfauna.^e^                       **468 (15,6)**                    **34**   **140**   **294**
+                                                                                                                                                                                           
+**Bacteria**               They include bacteria with enormous autotrophic and heterotrophic capacities.^b^                           **325 (10,8)**                    **7**    **63**    **255**
+                                                                                                                                                                                           
+**Litter**                 Dead plant tissue accumulated in the soil with different degrees of fragmentation and decomposition.^a^    **311 (10,3)**                    **4**    **30**    **277**
+                                                                                                                                                                                           
+**Mycorrhizal fungi**      Symbiotic fungal hyphae with plant roots. ^i^                                                              **152 (4,9)**                     **6**    **19**    **127**
+                                                                                                                                                                                           
+**Plant tissue**           Includes non-vascular plants (mosses, lichens, etc.), live roots, and seedlings.                           **199 (6,6)**                     **2**    **25**    **172**
+                                                                                                                                                                                           
+**Springtails**            Juvenile and adult springtails.                                                                            **246 (8,2)**                     **50**   **58**    **138**
+                                                                                                                                                                                           
+**Mites**                  Soft-bodied, non-sclerotic, unshielded, or juvenile mites.^f^                                              **193 (6,4)**                     **40**   **37**    **116**
+                                                                                                                                                                                           
+**Larvae**                 Soft-bodied invertebrate larvae.                                                                           **86 (2,9)**                      **15**   **20**    **51**
+                                                                                                                                                                                           
+**Humus**                  Complex and amorphous organic matter with a high degree of decomposition: debris, fecal pellets, etc.^d^   **121 (4)**                       **2**    **8**     **111**
+                                                                                                                                                                                           
+**Invertebrate eggs**      Invertebrate eggs consumed by predators.^g^                                                                **103 (3,4)**                     **13**   **24**    **66**
+                                                                                                                                                                                           
+**Enchytraeids**           Anatomically homogeneous, soft-bodied oligochaete annelids.^c^                                             **97 (3,2)**                      **11**   **30**    **56**
+                                                                                                                                                                                           
+**Invertebrate carrion**   Animal tissue, molts, invertebrate corpses, etc.^h^                                                        **119 (3,9)**                     **10**   **13**    **96**
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Table: Basic description of trophic resources. Total records of consumers by trophic resource with absolute values and percentages;   and the number of records by taxonomic resolution.^a^Berg & McClaugherty 2008 ^b^Clark 1971 ^c^Warcup 1971 ^d^Ponge 1991
+^e^Persson et al. 1980 ^f^Krantz & Walter 2009 ^g^Chernova et al. 2007 ^h^Rusek 1998 ^i^Schneider et al. 2005
 
 ### Data analysis
 
@@ -382,6 +414,46 @@ We obtained a total of 3015 records on trophic relationships (ESM II), with Acar
  eggs - enchytraeids, as food resources. These methods rarely mention
  the consumption of Mycorrhizal fungi and rarely the use of humus.
 
+\scriptsize
+\begin{longtable}[]{@{}lcccccccccccccccccc@{}}
+\caption{Breakdown of resources by Nested boxes represent the main orders of Acari and Collembola. In parentheses is the total number of taxa for the taxonomic category. Within the cells, the number of taxa associated with the trophic resource is shown. M: Mesostigmata, S: Sarcoptiformes, T: Trombidiformes, A: Arthropleona, N: Neelipleona, Sy: Symphypleona.}\\
+\toprule
+\textbf{Trophic Resource} & \multicolumn{6}{l}{FAMILY} & \multicolumn{6}{l}{GENERA} & \multicolumn{6}{l}{SPECIES} \\ \addlinespace
+& M & S & T & A & N & Sy & M & S & T & A & N & Sy & M & S & T & A & N &
+Sy \\ \addlinespace
+\midrule
+\endhead
+\textbf{Total} & 34 & 82 & 32 & 9 & 1 & 3 & 89 & 157 & 28 & 58 & 2 & 10
+& 136 & 264 & 22 & 154 & 1 & 13 \\ \addlinespace
+\textbf{Saprophytic fungi} & 7 & 68 & 10 & 9 & 1 & 2 & 11 & 120 & 10 &
+54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace
+\textbf{Microfauna} & 32 & 26 & 23 & 8 & 0 & 0 & 80 & 40 & 4 & 33 & 0 &
+0 & 106 & 47 & 0 & 39 & 0 & 0 \\ \addlinespace
+\textbf{Bacteria} & 4 & 55 & 6 & 9 & 1 & 2 & 4 & 91 & 7 & 38 & 2 & 5 & 3
+& 109 & 7 & 67 & 1 & 5 \\ \addlinespace
+\textbf{Litter} & 0 & 43 & 0 & 8 & 1 & 3 & 0 & 79 & 0 & 35 & 1 & 6 & 0 &
+124 & 0 & 59 & 1 & 5 \\ \addlinespace
+\textbf{Mycorrhizal fungi} & 2 & 31 & 3 & 7 & 0 & 1 & 1 & 44 & 0 & 28 &
+0 & 2 & 0 & 54 & 0 & 46 & 0 & 2 \\ \addlinespace
+\textbf{Plant tissue} & 0 & 42 & 5 & 7 & 0 & 2 & 0 & 72 & 4 & 20 & 0 & 7
+& 0 & 100 & 3 & 26 & 0 & 7 \\ \addlinespace
+\textbf{Springtails} & 24 & 0 & 27 & 2 & 0 & 0 & 53 & 0 & 13 & 3 & 0 & 0
+& 80 & 0 & 9 & 4 & 0 & 0 \\ \addlinespace
+\textbf{Mites} & 21 & 0 & 26 & 1 & 0 & 0 & 54 & 0 & 10 & 1 & 0 & 0 & 81
+& 0 & 7 & 0 & 0 & 0 \\ \addlinespace
+\textbf{Larvae} & 12 & 0 & 9 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 41 &
+0 & 0 & 0 & 0 & 0 \\ \addlinespace
+\textbf{Humus} & 0 & 24 & 2 & 8 & 1 & 2 & 0 & 27 & 0 & 26 & 1 & 3 & 0 &
+28 & 0 & 49 & 1 & 3 \\ \addlinespace
+\textbf{Invertebrate eggs} & 15 & 0 & 10 & 3 & 0 & 0 & 33 & 0 & 2 & 5 &
+0 & 0 & 52 & 0 & 1 & 4 & 0 & 0 \\ \addlinespace
+\textbf{Enchytraeids} & 17 & 0 & 7 & 4 & 0 & 0 & 41 & 0 & 0 & 4 & 0 & 0
+& 46 & 0 & 0 & 3 & 0 & 0 \\ \addlinespace
+\textbf{Invertebrate carrion} & 5 & 22 & 2 & 6 & 1 & 2 & 9 & 30 & 0 & 28
+& 1 & 3 & 11 & 31 & 0 & 40 & 1 & 4 \\ \addlinespace
+\bottomrule
+\end{longtable}
+\normalsize
 
 ### Use of trophic resources by soil microarthropods
 
@@ -846,102 +918,6 @@ However, this information must be interpreted with caution, because within a tax
 
  Warcup JH., 1971. Hongos del Suelo, In: Burges, A., Raw, F. (Eds.),
  Biología del Suelo. Chapter 3. Ediciones Omega, Barcelona. pp. 27--68.
-
-\newpage
-
-## Tables
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-**Trophic Resource**        **Description**                                                                                            **Total consumer records (%)**    Family   Genera    Species                    
--------------------------- ---------------------------------------------------------------------------------------------------------- --------------------------------- -------- --------- ---------
-**Saprophytic fungi**      They are ubiquitous soil fungi that break down organic matter.^c^                                          **595 (19,7)**                    **16**   **105**   **474**
-                                                                                                                                                                                           
-**Microfauna**             Soil nematodes and protozoa, tardigrades, rotifers, and other edaphic microfauna.^e^                       **468 (15,6)**                    **34**   **140**   **294**
-                                                                                                                                                                                           
-**Bacteria**               They include bacteria with enormous autotrophic and heterotrophic capacities.^b^                           **325 (10,8)**                    **7**    **63**    **255**
-                                                                                                                                                                                           
-**Litter**                 Dead plant tissue accumulated in the soil with different degrees of fragmentation and decomposition.^a^    **311 (10,3)**                    **4**    **30**    **277**
-                                                                                                                                                                                           
-**Mycorrhizal fungi**      Symbiotic fungal hyphae with plant roots. ^i^                                                              **152 (4,9)**                     **6**    **19**    **127**
-                                                                                                                                                                                           
-**Plant tissue**           Includes non-vascular plants (mosses, lichens, etc.), live roots, and seedlings.                           **199 (6,6)**                     **2**    **25**    **172**
-                                                                                                                                                                                           
-**Springtails**            Juvenile and adult springtails.                                                                            **246 (8,2)**                     **50**   **58**    **138**
-                                                                                                                                                                                           
-**Mites**                  Soft-bodied, non-sclerotic, unshielded, or juvenile mites.^f^                                              **193 (6,4)**                     **40**   **37**    **116**
-                                                                                                                                                                                           
-**Larvae**                 Soft-bodied invertebrate larvae.                                                                           **86 (2,9)**                      **15**   **20**    **51**
-                                                                                                                                                                                           
-**Humus**                  Complex and amorphous organic matter with a high degree of decomposition: debris, fecal pellets, etc.^d^   **121 (4)**                       **2**    **8**     **111**
-                                                                                                                                                                                           
-**Invertebrate eggs**      Invertebrate eggs consumed by predators.^g^                                                                **103 (3,4)**                     **13**   **24**    **66**
-                                                                                                                                                                                           
-**Enchytraeids**           Anatomically homogeneous, soft-bodied oligochaete annelids.^c^                                             **97 (3,2)**                      **11**   **30**    **56**
-                                                                                                                                                                                           
-**Invertebrate carrion**   Animal tissue, molts, invertebrate corpses, etc.^h^                                                        **119 (3,9)**                     **10**   **13**    **96**
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Table: Basic description of trophic resources. Total records of consumers by trophic resource with absolute values and percentages;   and the number of records by taxonomic resolution.^a^Berg & McClaugherty 2008 ^b^Clark 1971 ^c^Warcup 1971 ^d^Ponge 1991
-^e^Persson et al. 1980 ^f^Krantz & Walter 2009 ^g^Chernova et al. 2007 ^h^Rusek 1998 ^i^Schneider et al. 2005
-
-\newpage
-\blandscape
-
-\begin{longtable}[]{@{}lcccccccccccccccccc@{}}
-\caption{Breakdown of resources by Nested boxes represent the main orders of Acari and Collembola. In parentheses is the total number of taxa for the taxonomic category. Within the cells, the number of taxa associated with the trophic resource is shown. M: Mesostigmata, S: Sarcoptiformes, T: Trombidiformes, A: Arthropleona, N: Neelipleona, Sy: Symphypleona.}\\
-\toprule
-\textbf{Trophic Resource} & \multicolumn{6}{l}{FAMILY} & \multicolumn{6}{l}{GENERA} & \multicolumn{6}{l}{SPECIES} \\ \addlinespace
-\midrule
-\endhead
-& \vtop{\hbox{\strut M}\hbox{\strut (34)}} &
-\vtop{\hbox{\strut S}\hbox{\strut (82)}} &
-\vtop{\hbox{\strut T}\hbox{\strut (32)}} &
-\vtop{\hbox{\strut A}\hbox{\strut (9)}} &
-\vtop{\hbox{\strut N}\hbox{\strut (1)}} &
-\vtop{\hbox{\strut Sy}\hbox{\strut (3)}} &
-\vtop{\hbox{\strut M}\hbox{\strut (89)}} &
-\vtop{\hbox{\strut S}\hbox{\strut (157)}} &
-\vtop{\hbox{\strut T}\hbox{\strut (28)}} &
-\vtop{\hbox{\strut A}\hbox{\strut (58)}} &
-\vtop{\hbox{\strut N}\hbox{\strut (2)}} &
-\vtop{\hbox{\strut Sy}\hbox{\strut (10)}} &
-\vtop{\hbox{\strut M}\hbox{\strut (136)}} &
-\vtop{\hbox{\strut S}\hbox{\strut (264)}} &
-\vtop{\hbox{\strut T}\hbox{\strut (22)}} &
-\vtop{\hbox{\strut A}\hbox{\strut (155)}} &
-\vtop{\hbox{\strut N}\hbox{\strut (1)}} &
-\vtop{\hbox{\strut Sy}\hbox{\strut (13)}} \\ \addlinespace
-\textbf{Saprophytic fungi} & 7 & 68 & 10 & 9 & 1 & 2 & 11 & 120 & 10 &
-54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace
-\textbf{Microfauna} & 32 & 26 & 23 & 8 & 0 & 0 & 80 & 40 & 4 & 33 & 0 &
-0 & 106 & 47 & 0 & 39 & 0 & 0 \\ \addlinespace
-\textbf{Bacteria} & 4 & 55 & 6 & 9 & 1 & 2 & 4 & 91 & 7 & 38 & 2 & 5 & 3
-& 109 & 7 & 67 & 1 & 5 \\ \addlinespace
-\textbf{Litter} & 0 & 43 & 0 & 8 & 1 & 3 & 0 & 79 & 0 & 35 & 1 & 6 & 0 &
-124 & 0 & 59 & 1 & 5 \\ \addlinespace
-\textbf{Mycorrhizal fungi} & 2 & 31 & 3 & 7 & 0 & 1 & 1 & 44 & 0 & 28 &
-0 & 2 & 0 & 54 & 0 & 46 & 0 & 2 \\ \addlinespace
-\textbf{Plant tissue} & 0 & 42 & 5 & 7 & 0 & 2 & 0 & 72 & 4 & 20 & 0 & 7
-& 0 & 100 & 3 & 26 & 0 & 7 \\ \addlinespace
-\textbf{Springtails} & 24 & 0 & 27 & 2 & 0 & 0 & 53 & 0 & 13 & 3 & 0 & 0
-& 80 & 0 & 9 & 4 & 0 & 0 \\ \addlinespace
-\textbf{Mites} & 21 & 0 & 26 & 1 & 0 & 0 & 54 & 0 & 10 & 1 & 0 & 0 & 81
-& 0 & 7 & 0 & 0 & 0 \\ \addlinespace
-\textbf{Larvae} & 12 & 0 & 9 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 41 &
-0 & 0 & 0 & 0 & 0 \\ \addlinespace
-\textbf{Humus} & 0 & 24 & 2 & 8 & 1 & 2 & 0 & 27 & 0 & 26 & 1 & 3 & 0 &
-28 & 0 & 49 & 1 & 3 \\ \addlinespace
-\textbf{Invertebrate eggs} & 15 & 0 & 10 & 3 & 0 & 0 & 33 & 0 & 2 & 5 &
-0 & 0 & 52 & 0 & 1 & 4 & 0 & 0 \\ \addlinespace
-\textbf{Enchytraeids} & 17 & 0 & 7 & 4 & 0 & 0 & 41 & 0 & 0 & 4 & 0 & 0
-& 46 & 0 & 0 & 3 & 0 & 0 \\ \addlinespace
-\textbf{Invertebrate carrion} & 5 & 22 & 2 & 6 & 1 & 2 & 9 & 30 & 0 & 28
-& 1 & 3 & 11 & 31 & 0 & 40 & 1 & 4 \\ \addlinespace
-\bottomrule
-\end{longtable}
-
- 
-\elandscape
 
 \newpage
 
