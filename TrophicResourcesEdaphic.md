@@ -18,8 +18,6 @@ header-includes:
 
 # Trophic resources of the edaphic microarthropods: a worldwide review of the empirical evidence
 
-[Short title]{.ul}: Trophic resources of the edaphic microarthropods
-
 
  Víctor Nicolás Velazco^1,2^, Carlos Eduardo Coviella^1,2^, Liliana
  Beatriz Falco^1,2^, Leonardo Ariel Saravia^3,4^
@@ -42,7 +40,7 @@ header-includes:
 
  Buenos Aires Argentina
 
- Author contributions: LF and LS originally formulated the idea, NV, CC
+ **Author contributions**: LF and LS originally formulated the idea, NV, CC
  developed the methodology, NV, CC, LF, and LS analyzed the data and
  wrote the manuscript.
 
@@ -254,7 +252,7 @@ The empirical evidence provides information on the trophic relationships of thes
 We associate taxa and those resources, so that: a) if the publication indicated a food item it was assigned to a trophic resource in which it is defined, 
 b) or if the taxa are grouped in some guild or trophic category, then each taxon was assigned the typical resources consumed by that category.
 
-Based on this allocation strategy, we developed a database presented in Supplementary material II. The taxonomic information and the trophic resources were obtained from the different sections of the publications and their appendices (Thakur et al., 2020). In a complementary way, each taxon found has all the classification levels according to Krantz 2009 and Hopkin 2007, for mites and springtails respectively. The database is also available in the github repository <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://zenodo.org/record/XXXXXXX>.
+Based on this allocation strategy, we developed a database presented in Supplementary material II. The taxonomic information and the trophic resources were obtained from the different sections of the publications and their appendices (Thakur et al., 2020). In a complementary way, each taxon found has all the classification levels according to Krantz 2009 and Hopkin 2007, for mites and springtails respectively. The database is also available in the github repository <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Trophic Resource**        **Description**                                                                                            **Total consumer records (%)**    Family   Genera    Species                    
@@ -316,7 +314,7 @@ Table: Basic description of trophic resources. Total records of consumers by tro
  by the sum of the resources used by the lower taxonomic levels.
 
  The calculations, graphs, and tables were prepared using Microsoft
- Excel and R Statistical software version 4.1.2 (R Core Team 2021), the source code is available at Github <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://zenodo.org/record/XXXXXXX>..
+ Excel and R Statistical software version 4.1.2 (R Core Team 2021), the source code is available at Github <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
 
 ## Results
 
