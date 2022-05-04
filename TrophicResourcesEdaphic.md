@@ -19,8 +19,8 @@ header-includes:
 # Trophic resources of the edaphic microarthropods: a worldwide review of the empirical evidence
 
 
- Víctor Nicolás Velazco^1,2^, Carlos Eduardo Coviella^1,2^, Liliana
- Beatriz Falco^1,2^, Leonardo Ariel Saravia^3,4^
+ Víctor Nicolás Velazco^1,2^, Leonardo Ariel Saravia^3,4^, Carlos Eduardo Coviella^1,2^, Liliana
+ Beatriz Falco^1,2^
 
  ^1^ Departamento de Ciencias Básicas, Universidad Nacional de Luján
  (Argentina), ^2^ Instituto de Ecología y Desarrollo Sustentable (UNLu
