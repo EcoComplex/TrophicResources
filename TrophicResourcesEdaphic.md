@@ -4,6 +4,8 @@ output:
     latex_engine: xelatex
     keep_tex: true
     
+bibliography: TrophicResourcesEdaphic.bib  
+csl: elsevier-with-titles.csl
 
 documentclass: article
 geometry:
@@ -25,15 +27,15 @@ header-includes:
 
  ^1^ Departamento de Ciencias Básicas, Universidad Nacional de Luján
  (Argentina), ^2^ Instituto de Ecología y Desarrollo Sustentable (UNLu
- -- CONICET), ^3^ Instituto de Ciencias, Universidad Nacional de
- General Sarmiento (Argentina) ^4^ Centro Austral de Investigaciones
+ -- CONICET), ^3^ Instituto de Ciencias Polares, Universidad Nacional de
+ Tierra del Fuego (Argentina) ^4^ Centro Austral de Investigaciones
  Científicas (CADIC-CONICET), Ushuaia, Argentina.
 
  Corresponding author:
 
  Dr. Leonardo A. Saravia
 
- [lasaravia@untdf.edu.ar]{.ul}
+ <lasaravia@untdf.edu.ar>
 
  Centro Austral de Investigaciones Científicas (CADIC-CONICET)
 
@@ -55,30 +57,12 @@ Ecosystem sustainable use requires reliable information about its biotic and abi
 
 ## Introduction 
 
- Only in the last few decades, sustainable use of the soil has come
- sharply into focus. The report on Global Biodiversity and Ecosystem Services (IPBES, 2019),
- and the recent State of Knowledge of Soil Biodiversity (FAO, 2020)
- clearly state the importance of the soil ecosystem and the central
- role that soil biodiversity plays on ecosystem services. However,
- critical information is lacking on edaphic biodiversity and
- interaction webs for most soils.
+Only in the last few decades, sustainable use of the soil has come sharply into focus. The report on Global Biodiversity and Ecosystem Services [@IPBES2019], and the recent State of Knowledge of Soil Biodiversity [@FAO2020] clearly state the importance of the soil ecosystem and the central role that soil biodiversity plays on ecosystem services. However, critical information is lacking on edaphic biodiversity and interaction webs for most soils.
 
- The view about the edaphic biota has changed in recent years. Much of the work on taxonomic descriptions, richness, biodiversity estimation, and microenvironments (Anderson, 1978; Petersen and Luxton, 1982), highlights the fragility and need for the conservation of soils, and soil biodiversity (FAO, 2020; Walker, 1992). The focus has gradually shifted towards the study of the functioning of the soil ecosystem, in which the interactions between the biota and the edaphic environment hierarchically affect its structure and functioning of the edaphic ecosystem. (Barrios, 2007; Behan-Pelletier and Newton, 1999; Brussaard, 1997; Lavelle et al., 2006). The relationships of species richness with ecosystem dynamics allow establishing causal relationships between the characteristics of the organisms present and the processes and services of the ecosystem (Hooper et al., 2005; Martín-López et al., 2007) in natural as well as in managed environments (Wall et al., 2012).
+The view about the edaphic biota has changed in recent years. Much of the work on taxonomic descriptions, richness, biodiversity estimation, and microenvironments [@Anderson1978; @Petersen1982], highlights the fragility and need for the conservation of soils, and soil biodiversity [@FAO2020; @Walker1992]. The focus has gradually shifted towards the study of the functioning of the soil ecosystem, in which the interactions between the biota and the edaphic environment hierarchically affect its structure and functioning of the edaphic ecosystem [@Barrios2007; @Behan-Pelletier1999; @Brussaard1997; @Lavelle2006]. The relationships of species richness with ecosystem dynamics allow establishing causal relationships between the characteristics of the organisms present and the processes and services of the ecosystem [@Hooper2005; @Martin-Lopez2007] in natural as well as in managed environments [@Wall2012].
 
- The soil microarthropods is mainly constituted by microarthropods belonging
- to the Subclasses Acari and Collembola (following Kranz and Walter,
- 2009; Hopkin 2007) that inhabit the upper soil horizons (Martinez and
- Narciso, 2009), where complex communities are developed and
- maintained. These communities are influenced by a high microhabitat
- heterogeneity and the number of food resources available (Anderson,
- 1977, 1978; Lavelle and Spain, 1994), which provide a wide and varied
- set of ecological niches (Nielsen et al., 2010; Wallwork, 1958). The
- microarthropods, through its trophic relationships, contributes to the
- edaphic functioning through the fragmentation of organic matter, the
- nutrient cycle dynamics, the transport of microflora propagules, and
- the regulation of microflora and microfauna populations that affect
- primary production. (Brussaard, 1997; Cragg and Bardgett, 2001;
- Lavelle, 1996; Wall et al., 2012; FAO, 2020).
+The soil microarthropods is mainly constituted by microarthropods belonging to the Subclasses Acari and Collembola (following Kranz and Walter, 2009; Hopkin 2007) that inhabit the upper soil horizons [@Martinez2009], where complex communities are developed and maintained. These communities are influenced by a high microhabitat heterogeneity and the number of food resources available [@Anderson1977; @Anderson1978; @Lavelle2001], which provide a wide and varied set of ecological niches [@Nielsen2010; @Wallwork1958]. The microarthropods, through its trophic relationships, contributes to the edaphic functioning through the fragmentation of organic matter, the nutrient cycle dynamics, the transport of microflora propagules, and the regulation of microflora and microfauna populations that affect primary production [@Brussaard1997; @Cragg2001; @Lavelle1996; @Wall2012; @FAO2020].
+
 
  <!-- ESTE PARRAFO SOBRE LA IMPORTANCIA DE LAS REDES ES UN POCO REDUNDANTE quizas moverlo hacia abajo
 
@@ -86,107 +70,36 @@ Ecosystem sustainable use requires reliable information about its biotic and abi
 
 -->
 
- Knowing the resources that microarthropod groups use for food is
- difficult due to their size and cryptic environment. The recognition
- of the food resources that are part of the diet of soil
- microarthropods must be based on empirical evidence, which constitutes
- the first step to establish the interactions between trophic species
- and the trophic resources that describe the food webs. (Briand and
- Cohen, 1984; van Straalen, 1998; Walter et al., 1991).
+Knowing the resources that microarthropod groups use for food is difficult due to their size and cryptic environment. The recognition of the food resources that are part of the diet of soil microarthropods must be based on empirical evidence, which constitutes the first step to establish the interactions between trophic species and the trophic resources that describe the food webs [@Briand1984; @vanStraalen1998; @Walter1991].
 
- The information about trophic relationships of the different microarthropod taxonomic
- groups is still quite scarce. These data are necessary to build and
- analyze trophic networks that, in turn, could be used to assess
- the stability and conservation status of these ecosystems. (Barrios,
- 2007; Briones, 2014; Thakur et al., 2020).
+The information about trophic relationships of the different microarthropod taxonomic groups is still quite scarce. These data are necessary to build and analyze trophic networks that, in turn, could be used to assess the stability and conservation status of these ecosystems [@Barrios2007; @Briones2014; @Thakur2020].
 
- This review gathers the information currently available regarding the
- use of trophic resources by the edaphic microarthropods. This
- information, together with other characteristic features of the soil
- microarthropods, will allow building a food web interactions network,
- that could result in a better understanding of the structure and
- functioning of the edaphic biota (FAO, 2020). Trophic networks will,
- in turn, allow for comparing the state of different soils, or the same
- soils under different intensities of anthropic impact (Thompson et
- al., 2012).
+This review gathers the information currently available regarding the use of trophic resources by the edaphic microarthropods. This information, together with other characteristic features of the soil microarthropods, will allow building a food web interactions network that could result in a better understanding of the structure and functioning of the edaphic biota [@FAO2020]. Trophic networks will, in turn, allow for comparing the state of different soils, or the same soils under different intensities of anthropic impact [@Thompson2012].
 
- The empirical characterization of trophic interactions is challenging
- due to the spatial and temporal complexity of feeding patterns, and
- the limitations of the methods to identify and quantify the components
- of the diet (Nielsen et al., 2018; Pankhurst et al., 1997; Walter et
- al.,1991).
+The empirical characterization of trophic interactions is challenging due to the spatial and temporal complexity of feeding patterns, and the limitations of the methods to identify and quantify the components of the diet [@Nielsen2018; @Pankhurst1997; @Walter1991].
 
- Thus, the objectives of this review are: 1) to gather all the information currently available regarding the trophic resources used by soil microarthropods, 2) to describe the known trophic relationships and potential diets of these soil microarthropods at different taxonomic levels (from family to species), and 3) to establish the current status of knowledge skews in the available information.
+Thus, the objectives of this review are: 1) to gather all the information currently available regarding the trophic resources used by soil microarthropods, 2) to describe the known trophic relationships and potential diets of these soil microarthropods at different taxonomic levels (from family to species), and 3) to establish the current status of knowledge skews in the available information.
 
 ## Materials and methods 
 
 ### Empirical evidence
 
-The empirical evidence provided through studies carried out under  <!-- Esto es un comentario -->
- laboratory conditions (A) can be based on **observations** of the 
- feeding behavior of the animals under study, on studying **food
- preferences,** or **tests** to study other interactions or biological
- phenomena related to diet, in general, the tests they are made using
- microcosm (Saur and Ponge 1988; Hubert, Žilová, and Pekár 2001;
- Schneider 2005; Schneider and Maraun 2009). The observation of the
- **intestinal content** (B) is based on considering that what is found
- in the tract is evidence of what is actually consumed (Jacot in 1936;
- Hartenstein 1962; Schneider et al. 2004; John A. Wallwork 1958a) this
- method requires the preparation of specimens for observation by
- microscopy techniques. The morphology and functioning of the
- **mouthparts** (C) are related to the manipulation, acquisition, and
- processing that microarthropods carry out on food and could be used to
- determine trophic guilds (Buryn and Brandl 1992; Kaneko 1988;
- Macnamara 1924; Poole 1958). This evidence also requires microscopy
- techniques to obtain information.
+The empirical evidence provided through studies carried out under laboratory conditions (A) can be based on **observations** of the feeding behavior of the animals under study, on studying **food preferences,** or **tests** to study other interactions or biological phenomena related to diet. In general, the tests are made using microcosm [@Saur1988; @Hubert2001; @Schneider2005; @Schneider2009]. The observation of the **intestinal content** (B) is based on considering that what is found in the tract is evidence of what is actually consumed [@Hartenstein1962; @Schneider2004; @Wallwork1958a]. This method requires the preparation of specimens for observation by microscopy techniques. The morphology and functioning of the **mouthparts** (C) are related to the manipulation, acquisition, and processing that microarthropods carry out on food and could be used to determine trophic guilds [@Buryn1992; @Kaneko1988; @Macnamara1924]. This evidence also requires microscopy techniques to obtain information.
 
- **Molecular** tools (D), such as barcoding, could be used to determine
- the presence of a species or a taxonomic group within the intestinal
- tract and it allows for establishing trophic relationships or other
- types of interactions. (Heidemann et al. 2014; King et al. 2008; Read
- et al. 2006). The study of **digestive enzymes** (E) in invertebrates
- can explain the digested food portions (Siepel and Ruiter-Dijkman
- 1993; Berg, Stoffer, and Van Den Heuvel 2004), those enzymes that
- hydrolyze structural polysaccharides are related to the diet (Nielsen
- 1962) and allow the differentiation of trophic guilds (Berg, Stoffer,
- and Van Den Heuvel 2004; Siepel and Ruiter-Dijkman 1993).
+**Molecular** tools (D), such as barcoding, could be used to determine the presence of a species or a taxonomic group within the intestinal tract and it allows for establishing trophic relationships or other types of interactions [@Heidemann2014; @King2008; @Read2006]. The study of **digestive enzymes** (E) in invertebrates can explain the digested food portions [@Siepel1993; @Berg2004], and those enzymes that hydrolyze structural polysaccharides are related to the diet [@Nielsen1962]. They allow the differentiation of trophic guilds [@Berg2004; @Siepel1993].
 
- The use of the natural variation of **stable isotopes** (F) as
- empirical evidence of the use of trophic resources is based on the
- study of isotopic signatures; the isotopic signature of δ15N informs
- about the trophic level of the invertebrate and that of δ13C will
- indicate the proportion of trophic resources consumed, but the
- potential trophic resources need to be chosen previously to the
- isotopic analysis. (Tiunov 2007; Maraun et al. 2011; Potapov, Tiunov,
- and Scheu 2019; Potapov et al. 2019) also, the potential of this tool
- is such that inferences can even be made about the metabolic pathways
- of biomolecules (Pollierer et. Al. 2019, Pollierer & Scheu 2021;
- Chamberlain et. Al. 2006).
+The use of the natural variation of **stable isotopes** (F) as empirical evidence of the use of trophic resources is based on the study of isotopic signatures; the isotopic signature of $\delta\text{15N}$  informs about the trophic level of the invertebrate and that of $\delta\text{13C}$ will indicate the proportion of trophic resources consumed, but the potential trophic resources need to be chosen previously to the isotopic analysis [@Tiunov2007; @Maraun2011; @Potapov2019]. Additionally, this tool has the potential to infer the metabolic pathways of biomolecules [@Pollierer2019; @Chamberlain2006].
 
- Finally, the study of the **lipid profile** (G) is based on using the
- fatty acids of the tissue of the resources as biological markers
- through the identification of fatty acids in the animal, since it or
- cannot synthesize them (absolute markers) or their synthesis supposes
- a high metabolic cost (relative markers) (Kühn, Schweitzer, and Ruess
- 2019; Ruess and Chamberlain 2010; Sechi et al. 2014; Paul M.
- Chamberlain and Black 2005; Pollierer, Scheu, and Haubert 2010).
+Finally, the study of the **lipid profile** (G) is based on using the fatty acids of the tissue of the resources as biological markers through the identification of fatty acids in the animal. This is because the animal either cannot synthesize them (absolute markers) or their synthesis supposes a high metabolic cost (relative markers) [@Kuhn2019; @Ruess2010; @Sechi2014; @Chamberlain2005; @Pollierer2010].
 
- General review publications are also included in this review, provided
- that they collect information on the use of trophic resources from
- publications not readily available.
+General review publications are also included in this review, provided that they collect information on the use of trophic resources from publications not readily available.
+
 
 ### Bibliography search
 
- A systematic search for empirical evidence that relates the use of at
- least one trophic resource by soil microarthropods is the strategy
- used to address this issue. For them, we relied on publications whose
- keywords relate to the taxonomic groups of interest, trophic
- relationships, and methods that provide evidence of consumption. From
- these keywords, we formulated search strings applied to scientific
- bibliography in both Scopus and Google Scholar database search
- engines.
+A systematic search for empirical evidence that relates the use of at least one trophic resource by soil microarthropods is the strategy used to address this issue. For them, we relied on publications whose keywords relate to the taxonomic groups of interest, trophic relationships, and methods that provide evidence of consumption. From these keywords, we formulated search strings applied to scientific bibliography in both Scopus and Google Scholar database search engines.
 
- We used the following search string in Scopus:
+We used the following search string in Scopus:
 
  "ALL((microarthropods OR springtails OR mites OR oribatida OR
  mesostigmata OR prostigmata OR astigmata) AND (trophic OR diet OR
@@ -199,7 +112,7 @@ The empirical evidence provided through studies carried out under  <!-- Esto es 
  Fauna\")) AND (LIMIT-TO (LANGUAGE, \"English\") OR LIMIT-TO (LANGUAGE,
  \"Spanish\"))", which returned 838 titles (September 3, 2021).
 
- For searching in Google Scholar we used:
+For searching in Google Scholar we used:
 
  "(microarthropods OR springtails OR mites) AND (\"oribatida\" OR
  \"mesostigmata\" OR \"prostigmata\" OR \"astigmata\") AND (trophic OR
@@ -207,29 +120,18 @@ The empirical evidence provided through studies carried out under  <!-- Esto es 
  OR \"food preference\" OR \"fatty acid\" OR metabarcoding)". This
  search returned 2170 titles (September 3, 2021).
 
- We made additional searches from reviews and books resulting in 97
- more titles.
+We made additional searches looking into reviews and books that we had previously identified and used in our scientific research on the subject, which resulted in 97 more titles
 
- The first eligibility criterion to reduce the number of records was to
- select those papers whose titles or abstracts relate soil
- microarthropods to trophic resources (425 titles). From these, we
- selected those papers that effectively mention families, genera, or
- species of soil mites and springtails, relating them with at least one
- trophic resource. This resulted in 196 publications, which can be
- consulted in Electronic Supplementary Material I (ESM I). All the
- microarthropods recorded in the 196 publications cited can be found in
- ESM II, which is cross-referenced with ESM I. A flow diagram of the
- bibliography search and selection procedure is also provided as ESM
- III.
+The first eligibility criterion to reduce the number of records was to select those papers whose titles or abstracts relate soil microarthropods to trophic resources (425 titles). From these, we selected those papers that effectively mention families, genera, or species of soil mites and springtails, relating them with at least one trophic resource. This resulted in 196 publications, which can be consulted in Electronic Supplementary Material I (ESM I). All the microarthropods recorded in the 196 publications cited can be found in ESM II, which is cross-referenced with ESM I. A flow diagram of the bibliography search and selection procedure is also provided as ESM III.
 
 ### Database construction
 
-The empirical evidence provides information on the trophic relationships of these animals in different ways: some publications relate the taxa to food items and others group them into guilds or trophic categories. To deal with this heterogeneity, it was necessary to define the trophic resources (Table 1) that summarize their trophic and ecological characteristics in the edaphic ecosystem (Berg & McClaugherty 2008; Clark 1971; Warcup 1971; Ponge 1991; Persson et al. 1980; Krantz et al. 2009; Chernova et al. 2007; Rusek 1998; Schneider et. Al. 2005).
+The empirical evidence provides information on the trophic relationships of these animals in different ways: some publications relate the taxa to food items and others group them into guilds or trophic categories. To deal with this heterogeneity, it was necessary to define the trophic resources (Table 1) that summarize their trophic and ecological characteristics in the edaphic ecosystem [@Berg2008; @Clark1971; @Warcup1971; @Ponge1991; @Persson1980; @Krantz2009; @Chernova2007; @Rusek1998; @Schneider2005].
 
-We associate taxa and those resources, so that: a) if the publication indicated a food item it was assigned to a trophic resource in which it is defined, 
-b) or if the taxa are grouped in some guild or trophic category, then each taxon was assigned the typical resources consumed by that category.
+We associate taxa and those resources so that: a) if the publication indicated a food item, it was assigned to a trophic resource in which it is defined, b) or if the taxa are grouped in some guild or trophic category, then each taxon was assigned the typical resources consumed by that category.
 
-Based on this allocation strategy, we developed a database presented in Supplementary material II. The taxonomic information and the trophic resources were obtained from the different sections of the publications and their appendices (Thakur et al., 2020). In a complementary way, each taxon found has all the classification levels according to Krantz 2009 and Hopkin 2007, for mites and springtails respectively. The database is also available in the github repository <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
+Based on this allocation strategy, we developed a database presented in Supplementary material II. The taxonomic information and the trophic resources were obtained from the different sections of the publications and their appendices [@Thakur2020]. In a complementary way, each taxon found has all the classification levels according to Krantz 2009 and Hopkin 2007, for mites and springtails respectively. The database is also available in the GitHub repository <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Trophic Resource**        **Description**                                                                                            **Total consumer records (%)**    Family   Genera    Species                    
@@ -266,32 +168,13 @@ Table: Basic description of trophic resources. Total records of consumers by tro
 
 ### Data analysis
 
- The records were then analyzed by counting the associations between
- the taxa, the methods used and the trophic resources identified. We
- identified trophic resources, the number of records, and their
- relationships with the different taxonomic levels. Then, the breakdown
- of each taxon was carried out within the taxonomic categories and
- their relationship with trophic resources. We calculated the
- proportions of the different methods and their relationship with the
- taxonomic level and trophic resources.
+The records were then analyzed by counting the associations between the taxa, the methods used, and the trophic resources identified. We identified trophic resources, the number of records, and their relationships with the different taxonomic levels. Then, the breakdown of each taxon was carried out within the taxonomic categories and their relationship with trophic resources. We calculated the proportions of the different methods and their relationship with the taxonomic level and trophic resources.
 
- Finally, we estimated the potential importance of resources on the
- diet for the main orders of mites (Arachnida) and springtails
- (Collembola) using the proportion of mentions between trophic
- resources and taxa included in such orders. For example, if a species
- has ten records on the consumption of the same trophic resource, the
- selection of this food item is likely a reflection of the use of the
- resource. Then if we gathered the information available from different
- species of the same genus, and the food items consumed by them, then
- we could assign it to the potential diet for the genus. Similarly, the
- resource use of the genera within a family can be thought of as
- reflecting the potential diet of the family.
+Finally, we estimated the potential importance of resources on the diet for the main orders of mites (Arachnida) and springtails (Collembola) using the proportion of mentions between trophic resources and taxa included in such orders. For example, if a species has ten records on the consumption of the same trophic resource, the selection of this food item is likely a reflection of the use of the resource. Then, if we gathered the information available from different species of the same genus and the food items consumed by them, we could assign it to the potential diet for the genus. Similarly, the resource use of the genera within a family can be thought of as reflecting the potential diet of the family.
 
- That is, the diet of higher taxonomic hierarchies will be constituted
- by the sum of the resources used by the lower taxonomic levels.
+That is, the diet of higher taxonomic hierarchies will be constituted by the sum of the resources used by the lower taxonomic levels.
 
- The calculations, graphs, and tables were prepared using Microsoft
- Excel and R Statistical software version 4.1.2 (R Core Team 2021), the source code is available at Github <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
+The calculations, graphs, and tables were prepared using Microsoft Excel and R Statistical software version 4.1.2 [@RCoreTeam2021]. The source code is available at GitHub <https://github.com/EcoComplex/TrophicResources> and Zenodo <https://doi.org/10.5281/zenodo.6508661>.
 
 ## Results
 
@@ -475,86 +358,26 @@ The empirical evidence that addresses the trophic study of Arthropleona (Collemb
 
 ## Discussion
 
- Until the 1960s, soil fauna was considered mainly earthworms, and
- terrestrial ecologists considered most of the soil fauna as a "black
- box" of decomposers and detritivores (Briones, 2014). The information
- gradually collected over the following decades regarding the edaphic
- microarthropods is reaching the point where it is possible to focus on
- integrative works. (Pautasso 2013) However, the available information
- is still scarce and mostly restricted to the most numerous or
- conspicuous groups of the soil microarthropods, mainly from European
- soils.
+Until the 1960s, soil fauna was considered mainly earthworms, and terrestrial ecologists considered most of the soil fauna as a "black box" of decomposers and detritivores [@Briones2014]. The information gradually collected over the following decades regarding the edaphic microarthropods is reaching the point where it is possible to focus on integrative works [@Pautasso2013]. However, the available information is still scarce and mostly restricted to the most numerous or conspicuous groups of the soil microarthropods, mainly from European soils.
 
- For soil microarthropods, the evidence provided by laboratory work
- results in the most straightforward traditional method to know how
- these animals use trophic resources, their feeding behavior, their
- food preferences, and their development and growth in controlled
- environments, but Feeding links observed in the laboratory do not
- necessarily relevant for the field (Nielsen 2018, Potapov 2022). The
- method used to relate the isotopic signature of organisms and their
- resources is a recently developed tool that is useful for detecting
- the importance and the changes in time or space of assumed trophic
- relationships, which means that we have to know in advance if the
- trophic relationship exists. The main drawback of the method is that
- if we erroneously assign a trophic relationship the proportions of the
- diets could be greatly distorted from the real trophic relationships.
- On the other side, this method has several advantages 1) it can
- analyze a large number of species and an important variety of
- resources (Potapov et al., 2019), 2) it can provide field evidence of
- real interactions
+For soil microarthropods, the evidence provided by laboratory work results in the most straightforward traditional method to know how these animals use trophic resources, their feeding behavior, their food preferences, and their development and growth in controlled environments, but feeding links observed in the laboratory do not necessarily relevant for the field [@Nielsen2018; @Potapov2022]. The method used to relate the isotopic signature of organisms and their resources is a recently developed tool that is useful for detecting the importance and the changes in time or space of assumed trophic relationships, which means that we have to know in advance if the trophic relationship exists. The main drawback of the method is that if we erroneously assign a trophic relationship, the proportions of the diets could be greatly distorted from the real trophic relationships. On the other side, this method has several advantages: 1) it can analyze a large number of species and an important variety of resources [@Potapov2019], 2) it can provide field evidence of real interactions, 3) it can provide quantitative data, accounting for interaction strength, 4) it can provide information on assimilation and not only ingestion [@Nielsen2018].
 
- 3\) it can provide quantitative data, accounting for interaction
- strength
+The different methods have different sources of errors, so it will be desirable that trophic resources used by soil microarthropods can be determined in a complementary way with several methods [@Potapov2020; @Walter1991].
 
- 4\) it can provide information on assimilation and not only ingestion
- (Nielsen et al. 2018)
+The most used resources are saprophytic fungi, microfauna, and bacteria. If we associate them with their nutritional characteristics, these trophic resources are rich in molecules with great nutritional value as determined in the dietary routes labeled by fatty acids, stable isotopes, or the enzymatic methods [@Nielsen1962; @Potapov2019; @Ruess2010].
 
- The different methods have different sources of errors so it will be
- desirable that trophic resources used by soil microarthropods can be
- determined in a complementary way with several methods (Potapov et
- al., 2020; Walter et al.,1991).
+It is also to be noted that the information available for Acari and Collembola is strongly asymmetric, corresponding mainly to the order Sarcoptiformes in Acari and to Arthropleona in Collembola.
 
- The most used resources are saprophytic fungi, microfauna, and
- bacteria. If we associate them with their nutritional characteristics,
- these trophic resources are rich in molecules with great nutritional
- value as determined in the dietary routes labeled by fatty acids,
- stable isotopes, or the enzymatic methods (Nielsen, 1962; Potapov et
- al., 2019; Ruess and Chamberlain, 2010).
+Despite the increasing amount of descriptive works and lists of taxonomic groups, the information available worldwide is still largely fragmentary and incomplete, and taxonomic resolution varies considerably between and within published works.
 
- It is also to be noted that the information available for Acari and
- Collembola is strongly asymmetric, corresponding mainly to the order Sarcoptiformes in Acari and to Arthropleona in Collembola.
+We found that a large proportion of the resources are defined as taxonomic categories of species, genera, and families, which would be important to estimate the diets of higher taxonomic groups. The available information for low taxonomic levels could be used as a reference to address the problem of what the use of soil resources will be like by higher-level taxonomic groups [@Bedano2007; @Potapov2020].
 
- Despite the increasing amount of descriptive works and lists of
- taxonomic groups, the information available worldwide is still largely
- fragmentary and incomplete, and taxonomic resolution varies
- considerably between and within published works.
+However, this information must be interpreted with caution, because within a taxonomic category, each species could apply different strategies when exploiting food resources [@Lavelle2001; @Moore1988]. Although the taxa treated here are considered generalist consumers, recently the term "choosy generalist" was suggested as the behavior that characterizes consumers that inhabit soils [@Potapov2022].
 
- We found that a large proportion of the resources are defined as
- taxonomic categories of species, genera, and families, which would be
- important to estimate the diets of higher taxonomic groups. The
- available information for low taxonomic levels could be used as a
- reference to address the problem of what the use of soil resources
- will be like by higher-level taxonomic groups (Bedano, 2007; Potapov
- et al. 2020).
+The results presented here provide valuable new information about the different feeding strategies of the main groups of the soil microarthropods, and also on the quality and usefulness of the different methods used to assign trophic resource use to different taxa. It also presents the current status of knowledge about soil microarthropods' trophic resources usage. Moreover, it highlights the still quite scant information available in this regard.
 
-However, this information must be interpreted with caution, because within a taxonomic category each species could apply different strategies when exploiting food resources (Lavelle and Spain, 2001; Moore et al., 1988), although the taxa treated here are considered generalist consumers, recently the term "choosy generalist" was suggested as the behavior that characterizes consumers that inhabit soils (Potapov et al. 2022)
+Finally, it is necessary to call attention to the need for more studies on the trophic relationships of the soil microarthropods. Out of a total of approximately 9000 described species of Collembola [@Bellinger2023], it was only possible to find trophic information for just 127 soil inhabitant species. For Acari, out of the approximately 58,000 species described [@Schmidt2020], it was only possible to find references of trophic relationships for 307 soil species.
 
- The results presented here provide valuable new information about the
- different feeding strategies of the main groups of the soil
- microarthropods, and also on the quality and usefulness of the
- different methods used to assign trophic resource use to different
- taxa. It also presents the current status of knowledge about soil
- microarthropods trophic resources usage. Moreover, it highlights the
- still quite scant information available in this regard.
-
- Finally, it is necessary to call attention to the need for more
- studies on the trophic relationships of the soil microarthropods. Out
- of a total of approximately 9000 described species of Collembola
- (Bellinger et al., 2020), it was only possible to find trophic
- information for just 127 soil inhabitant species. For Acari, out of
- the approximately 58,000 species described (Schmidt, 2020), it was
- only possible to find references of trophic relationships for 307 soil
- species.
 
  It is clear that big gaps in the available information must be filled
  to advance our knowledge on the structure and functioning of soil food
@@ -589,309 +412,9 @@ However, this information must be interpreted with caution, because within a tax
 
 ## Bibliography
 
- Anderson JM., 1978. A method to quantify soil-microhabitat complexity
- and its application to a study of soil animal species diversity. Soil
- Biol. Biochem. 10, 77--78.
- https://doi.org/10.1016/0038-0717(78)90014-7
 
- Anderson JM., 1977. The Organization of Soil Animal Communities. Ecol.
- Bull. 25, 15--23.
+<div id="refs"></div>
 
- Barrios E., 2007. Soil biota, ecosystem services, and land
- productivity. Ecol. Econ. 64, 269--285.
- https://doi.org/10.1016/j.ecolecon.2007.03.004
-
- Bedano JC., 2007.El rol de la mesofauna edáfica en la evaluación de la
- calidad del Suelo, In: De La Biología de Los Suelos a La Agricultura.
- Universidad Nacional de Río Cuarto. pp. 247--258.
-
- Behan-Pelletier V, Newton G., 1999. Linking soil biodiversity and
- ecosystem function. The taxonomic dilemma. BioScience 2.
- [[https://doi.org/10.2307/1313540]](https://doi.org/10.2307/1313540).
-
- Bellinger PF, Christiansen KA, Janssens F., 2020. Internet resource
- available from:
- [[http://www.collembola.org]](http://www.collembola.org/). Last
- updated: November 30, 2020. Last accessed: December 23, 2020.
-
- Berg, M.P., Stoffer, M., van den Heuvel, H. 2004. Feeding guilds in
- Collembola based on digestive enzymes. Pedobiologia 48, 589-601. DOI:
- [[\10.1016/j.pedobi.2004.07.006]](http://dx.doi.org/10.1016%2Fj.pedobi.2004.07.006)
-
- Berg B, McClaugherty C., 2008. Plant litter: decomposition, humus
- formation, carbon sequestration, 2nd. ed. Springer, Berlin.
-
- Briand F, Cohen JE., 1984 Community food webs have scale-invariant
- structure. Nature, Letters to Nature. 307, 264--267.
-
- Briones MJI., 2014. Soil fauna and soil functions: a jigsaw puzzle.
- Front. Environ. Sci. 2, 1--22.
- <https://doi.org/10.3389/fenvs.2014.00007>
-
- Brussaard L., 1977. Biodiversity and Ecosystem Functioning in Soil.
- Ambio. 26, 563--570.
-
- Buryn R, Brandl R., 1992. Are the morphometrics of chelicerae
- correlated with diet in mesostigmatid mites (Acari)? Exp. Appl.
- Acarol. 14, 67--82.
- [[https://doi.org/10.1007/BF01205353]](https://doi.org/10.1007/BF01205353)
-
- Chamberlain, P. M., Bull, I. D., Black, H. I. J., Ineson, P., &
- Evershed, R. P. (2006). Collembolan trophic preferences determined
- using fatty acid distributions and compound-specific stable carbon
- isotope values. Soil Biology and Biochemistry, 38(6), 1275-1281.
-
- Chernova NM, Bokova AI, Varshav EV, Goloshchapova NP, Savenkova YuYu.,
- 2007. Zoophagy in Collembola. Entomol. Rev. 87, 799--811.
- https://doi.org/10.1134/S0013873807070020
-
- Clark FE., 1971. Bacterias del Suelo, In: Burges, A., Raw, F. (Eds.),
- Biología del Suelo, Chapter 2. Ediciones Omega, Barcelona. pp. 27--68.
-
- Cragg RG, Bardgett RD., 2001. How changes in soil faunal diversity and
- composition within a trophic group influence decomposition processes.
- Soil Biol. Biochem. 33, 2073--2081.
- https://doi.org/10.1016/S0038-0717(01)00138-9
-
- FAO, ITPS, GSBI, SCBD, EC., 2020. State of knowledge of soil
- biodiversity. Status, challenges and potentialities, Report 2020;
- Rome, FAO. https://doi.org/10.4060/cb1928en
-
- Hartenstein R., 1962. Soil Oribatei. I. Feeding Specificity among
- Forest Soil Oribatei (Acarina). Ann. Entomol. Soc. Am. 55, 202--206.
- https://doi.org/10.1093/aesa/55.2.202
-
- Hättenschwiler S, Tiunov AV, Scheu, S., 2005. Biodiversity and Litter
- Decomposition in Terrestrial Ecosystems. Annu. Rev. Ecol. Evol. Syst.
- 36, 191--218. https://doi.org/10.1146/annurev.ecolsys.36.112904.151932
-
- Heidemann K, Ruess L, Scheu S, Maraun M., 2014. Nematode consumption
- by mite communities varies in different forest microhabitats as
- indicated by molecular gut content analysis. Exp. Appl. Acarol. 64,
- 49--60. https://doi.org/10.1007/s10493-014-9807-x
-
- Hooper DU, Chapin FS, Ewel JJ, Hector A, Inchausti P, Lavorel S,
- Lawton JH, Lodge DM, Loreau M, Naeem S, Schmid B, La HS, Symstad AJ,
- Vandermeer J, Wardle DA., 2005. Effects of biodiversity on ecosystem
- functioning: A consensus of current knowledge. Ecol. Monogr. 75, 33.
- [[https://doi.org/10.1890/04-0922]](https://doi.org/10.1890/04-0922)
-
- Hopkin, S. P. (1997). Biology of the springtails: (Insecta:
- Collembola). Oxford University Press. Oxford, UK. 340 pp.
-
- Hubert J, Žilová M, Pekár, S., 2001. Feeding preferences and gut
- contents of three panphytophagous oribatid mites (Acari: Oribatida).
- Eur. J. Soil Biol. 37, 197--208.
- https://doi.org/10.1016/S1164-5563(01)01083-4
-
- International Commission on Zoological Nomenclature. Internet
- resource. iczn.org, last accessed: September 13, 2021.
-
- IPBES, 2019. Global assessment report on biodiversity and ecosystem
- services of the Intergovernmental Science-Policy Platform on
- Biodiversity and Ecosystem Services. Brondizio ES, Settele J, Díaz S,
- Ngo HT (eds). IPBES secretariat, Bonn, Germany.
-
- Kaneko N., 1988. Feeding habits and cheliceral size of oribatid mites
- in cool temperate forest soils in Japan. Rev. Écologie Biol. Sol. 25,
- 353--363.
-
- King RA, Read DS, Traugott M, Symondson WOC., 2008. Molecular analysis
- of predation: A review of best practice for DNA-based approaches. Mol.
- Ecol. 17, 947--963. https://doi.org/10.1111/j.1365-294X.2007.03613.x
-
- Krantz GW, Walter DE (Eds.), 2009. A manual of acarology, 3rd ed.
- Texas Tech University Press, Lubbock, Texas.
-
- Kühn J, Schweitzer K, Ruess L., 2019. Diversity and specificity of
- lipid patterns in basal soil food web resources. PLOS ONE 14,
- e0221102. https://doi.org/10.1371/journal.pone.0221102
-
- Lavelle P., 1996. Diversity of soil fauna and ecosystem function.
- Biol. International 33, 3--16.
-
- Lavelle P, Decaëns T, Aubert M, Barot S, Blouin M, Bureau F, Margerie
- P, Mora P, Rossi JP., 2006. Soil invertebrates and ecosystem services.
- Eur. J. Soil Biol. 2006; 42, S3--S15.
- https://doi.org/10.1016/j.ejsobi.2006.10.002
-
- Lavelle P, Spain AV., 2001. Soil Ecology, 2nd. ed. Kluwer Academic
- Publisher. Springer.
-
- Martínez PA, Narciso EN., 2009. Mesofauna. In: Momo, F.R., Falco, L.B.
- (Eds.), Biología y Ecología de la Fauna del Suelo. Imago Mundi, Buenos
- Aires, p. 186.
-
- Martín-López, B, González JA, Díaz S, Castro I, García-Llorente M.,
- 2007. Biodiversidad y bienestar humano: el papel de la diversidad
- funcional. Ecosistemas. 16, 69--80.
-
- Moore JC, Walter, DE, Hunt, HW., 1988. Arthropod Regulation of Micro-
- and Mesobiota in Below-Ground Detrital Food Webs. Annu. Rev. Entomol.
- 33, 419--435. https://doi.org/10.1146/annurev.en.33.010188.002223
-
- Nielsen CO., 1962. Carbohydrases in Soil and Litter Invertebrates.
- Oikos. 13, 200--2015. https://doi.org/10.2307/3565085
-
- Nielsen JM, Clare EL, Hayden B, Brett MT, Kratina P., 2018. Diet
- tracing in ecology: Method comparison and selection. Methods Ecol.
- Evol. 9, 278--291. https://doi.org/10.1111/2041-210X.12869
-
- Nielsen UN, Osler GHR, Campbell CD, Neilson R, Burslem DFRP, van der
- Wal R., 2010. The Enigma of Soil Animal Species Diversity Revisited:
- The Role of Small-Scale Heterogeneity. PLoS ONE. 5, e11567.
- https://doi.org/10.1371/journal.pone.0011567
-
- Pankhurst C., Doube BM, Gupta VVSR., 1997. Biological Indicators of
- Soil Health. CAB INTERNATIONAL.
-
- Persson T, Bååth E, Clarholm M, Lundkvist H, Söderström BE, Sohlenius
- B., 1980. Trophic Structure, Biomass Dynamics and Carbon Metabolism of
- Soil Organisms in a Scots Pine Forest. Ecol. Bull. 32, 419--459.
-
- Petersen H, Luxton, MA., 1982. Comparative Analysis of Soil Fauna
- Populations and Their Role in Decomposition Processes. Oikos. 39, 288.
- https://doi.org/10.2307/3544689
-
- Pey B, Nahmani J, Auclerc A, Capowiez Y, Cluzeau D, Cortet J, Decaëns
- T, Deharveng L, Dubs F, Joimel S, Briard C, Grumiaux F, Laporte MA,
- Pasquet A, Pelosi C, Pernin C, Ponge JF, Salmon S, Santorufo L, Hedde
- M., 2014. Current use of and future needs for soil invertebrate
- functional traits in community ecology. Basic Appl. Ecol. 15,
- 194--206.
- [[https://doi.org/10.1016/j.baae.2014.03.007]](https://doi.org/10.1016/j.baae.2014.03.007).
-
- Pautasso, M. (2013). Ten simple rules for writing a literature review.
- *PLoS computational biology*, *9*(7), e1003149.
-
- Pollierer MM, Scheu S, Haubert D., 2010. Taking it to the next level:
- Trophic transfer of marker fatty acids from basal resource to
- predators. Soil Biol. Biochem. 42, 919--925.
- [[https://doi.org/10.1016/j.soilbio.2010.02.008]](https://doi.org/10.1016/j.soilbio.2010.02.008)
-
- Pollierer, M. M., & Scheu, S. (2021). Stable isotopes of amino acids
- indicate that soil decomposer microarthropods predominantly feed on
- saprotrophic fungi. *Ecosphere*, *12*(3), e03425.
-
- Pollierer, M. M., Larsen, T., Potapov, A., Brückner, A., Heethoff, M.,
- Dyckmans, J., & Scheu, S. (2019). Compound specific isotope analysis
- of amino acids as a new tool to uncover trophic chains in soil food
- webs. Ecological Monographs, 89(4), e01384.
-
- Ponge JF., 1991. Food resources and diets of soil animals in a small
- area of Scots pine litter. Geoderma. 49, 33--62.
- <https://doi.org/10.1016/0016-7061(91)90090-G>
-
- Potapov AM, Beaulieu F, Birrkhofer K, Bluhm SL, Degtyarev MI, Devetter M, Goncharov AA, Gongalsky KB, Klarner B, Korobushkin DI, Liebke DF, Maraun M, Mc Donnell RJ, Pollierer MM, Schaefer I, Shrubovych J, Semenyuk I I, Sendra A, Tuma J, Tůmová M, Vassilieva AB, Chen T, Geisen S, Schmidt O, Tiunov AV, Scheu S. 2022. Feeding habits and multifunctional classification of soil-associated consumers from protists to vertebrates. Biological Reviews <https://doi.org/10.1111/brv.12832>
-
- Potapov AM, Pollierer MM, Salmon S, Šustr V, Chen TW., 2020.
- Multidimensional trophic niche approach: gut content, digestive
- enzymes, fatty acids, and stable isotopes in Collembola. bioRxiv
- 2020.05.15.098228.
- [[https://doi.org/10.1101/2020.05.15.098228]](https://doi.org/10.1101/2020.05.15.098228)
-
- Potapov AM, Tiunov AV, Scheu S., 2019. Uncovering trophic positions
- and food resources of soil animals using bulk natural stable isotope
- composition: Stable isotopes in soil food web studies. Biol. Rev. 94,
- 37--59. [https://doi.org/10.1111/brv.12434]
-
- R Core Team (2021). R: A language and environment for statistical
- computing. R Foundation for Statistical Computing, Vienna, Austria.
- https://www.R-project.org/.
-
- Read DS, Sheppard SK, Bruford MW, Glen DM, Symondson WOC., 2006.
- Molecular detection of predation by soil micro-arthropods on
- nematodes. Mol. Ecol. 15, 1963--1972.
- https://doi.org/10.1111/j.1365-294X.2006.02901.x
-
- Ruess L, Chamberlain PM., 2010. The fat that matters: Soil food web
- analysis using fatty acids and their carbon stable isotope signature.
- Soil Biol. Biochem. 42, 1898--1910.
- https://doi.org/10.1016/j.soilbio.2010.07.020
-
- Ruess L, Schütz K, Migge-Kleian S, Häggblom MM, Kandeler E, Scheu S.,
- 2007. Lipid composition of Collembola and their food resources in
- deciduous forest stands---Implications for feeding strategies. Soil
- Biol. Biochem. 39, 1990--2000.
- https://doi.org/10.1016/j.soilbio.2007.03.002
-
- Rusek J., 1998. Biodiversity of Collembola and their functional role
- in the ecosystem. Biodivers. Conserv. 7, 1207--1219.
- https://doi.org/10.1023/A:1008887817883
-
- Saur É, Ponge J., 1988. Alimentary studies on the Collembolan
- Paratullbergia callipygos using transmission electron microscopy.
- Pedobiologia. 31, 355--379.
-
- Schmidt KH., 2020. Internet resource available from:
- [[http://miteresearch.org]](http://miteresearch.org/). Last
- accessed: December 23, 2020.
-
- Schneider K., 2005. Feeding biology and diversity of oribatid mites
- (Oribatida, Acari). PhD dissertation. Technischen Universität
- Darmstadt. Available from:
- https://tuprints.ulb.tu-darmstadt.de/585/1/Dissertation_Schneider.pdf.
-
- Schneider K, Maraun M., 2009. Top-down control of soil microarthropods
- - Evidence from a laboratory experiment. Soil Biol. Biochem. 41,
- 170--175. https://doi.org/10.1016/j.soilbio.2008.10.013
-
- Schneider K, Renker C, Maraun M., 2005. Oribatid mite (Acari,
- Oribatida) feeding on ectomycorrhizal fungi. Mycorrhiza. 16, 67--72.
- https://doi.org/10.1007/s00572-005-0015-8.
-
- Schneider K, Renker C, Scheu S, Maraun M., 2004. Feeding biology of
- oribatid mites: a minireview. Phytophaga. 14, 247--256.
-
- Siepel H, Ruiter-Dijkman EM., 1993. Feeding guilds of oribatid mites
- based on their carbohydrase activities. Soil Biol. Biochem. 25,
- 1491--1497. https://doi.org/10.1016/0038-0717(93)90004-U.
-
- Thakur MP, Phillips HRP, Brose U, De Vries FT, Lavelle P, Loreau M,
- Mathieu J, Mulder C, Van der Putten WH, Rillig MC, Wardle DA, Bach EM,
- Bartz MLC, Bennett JM, Briones MJI, Brown G, Decaëns T, Eisenhauer N,
- Ferlian O, Guerra CA, König‐Ries B, Orgiazzi A, Ramirez KS, Russell
- DJ, Rutgers M, Wall DH, Cameron EK., 2020. Towards an integrative
- understanding of soil biodiversity. Biol. Rev. 95, 350--364.
- https://doi.org/10.1111/brv.12567
-
- Thompson RM, Brose U, Dunne JA, Hall RO Jr, Hladyz S, Kitching RL,
- Martinez ND, Rantala H, Romanuk TN, Stoufer DB, Tylianakis JM., 2012.
- Food webs: reconciling the structure and function of biodiversity.
- Trends Ecol. Evol. 27, 689--697.
- http://dx.doi.org/10.1016/j.tree.2012.08.005
-
- Tiunov AV., 2007. Stable isotopes of carbon and nitrogen in soil
- ecological studies. Biol. Bull. 34, 395--407.
- https://doi.org/10.1134/S1062359007040127.
-
- van Straalen NM., 1998. Community structure of soil arthropods as a
- Bioindicator of Soil Health, in Pankhurst, C., Doube, B.M., Gupta,
- V.V.S.R. (Eds.), Biological Indicators of Soil Health. CAB
- INTERNATIONAL, U.K. 1998; pp. 235--264.
-
- Walker BH., 1992. Biodiversity and ecological redundancy. Conserv.
- Biol. 6, 18--23. https://doi.org/10.1046/j.1523-1739.1992.610018.x
-
- Wall DH, Bardgett RD, Behan-Pelletier V, Herryck JE, Jones HT, Ritz K,
- Six J, Strong DR, Van der Putten WH., 2012. Soil ecology and ecosystem
- services, Journal of Chemical Information and Modeling. Oxford
- University Press.
-
- Wall DH, Moore JC., 1999. Interactions underground. Soil biodiversity,
- mutualism, and ecosystem processes. BioScience. 49, 109--117.
- https://doi.org/10.2307/1313536
-
- Wallwork JA., 1958. Notes on the Feeding Behaviour of Some Forest Soil
- Acarina. Oikos. 9, 260--271. https://doi.org/10.2307/3564770
-
- Walter DE, Kaplan DT, Permar TA., 1991. Missing links: a review of
- methods used to estimate trophic links in soil food webs. Agric.
- Ecosyst. Environ. 34, 399--405.
- https://doi.org/10.1016/0167-8809(91)90123-F
-
- Warcup JH., 1971. Hongos del Suelo, In: Burges, A., Raw, F. (Eds.),
- Biología del Suelo. Chapter 3. Ediciones Omega, Barcelona. pp. 27--68.
 
 \newpage
 
