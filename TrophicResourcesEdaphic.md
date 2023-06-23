@@ -150,7 +150,7 @@ Based on this allocation strategy, we developed a database presented in Suppleme
                                                                                                                                                                                            
 **Plant tissue**           Includes non-vascular plants (mosses, lichens, etc.), live roots, and seedlings.                           **199 (6.6)**                     **2**    **25**    **172**
                                                                                                                                                                                            
-**Mites**                  Soft-bodied, non-sclerotic, unshielded, or juvenile mites.^f^                                              **193 (6.4)**                     **40**   **37**    **116**
+**Mites**                  Juvenile and adults Mites.^f^                                                                              **193 (6.4)**                     **40**   **37**    **116**
 
 **Mycorrhizal fungi**      Symbiotic fungal hyphae with plant roots. ^i^                                                              **152 (4.9)**                     **6**    **19**    **127**
                                                                                                                                                                                            
@@ -172,7 +172,7 @@ Table: Basic description of trophic resources. Total records of consumers by tro
 
 The records were then analyzed by counting the associations between the taxa, the methods used, and the trophic resources identified. We identified trophic resources, the number of records, and their relationships with the different taxonomic levels. Then, the breakdown of each taxon was carried out within the taxonomic categories and their relationship with trophic resources. We calculated the proportions of the different methods and their relationship with the taxonomic level and trophic resources.
 
-Finally, we estimated the potential importance of resources on the diet for the main orders of mites (Arachnida) and springtails (Collembola) using the proportion of mentions between trophic resources and taxa included in such orders. For example, if a species has ten records on the consumption of the same trophic resource, the selection of this food item is likely a reflection of the use of the resource. Then, if we gathered the information available from different species of the same genus and the food items consumed by them, we could assign it to the potential diet for the genus. Similarly, the resource use of the genera within a family can be thought of as reflecting the potential diet of the family.
+Finally, we estimated the potential importance of resources on the diet for the main orders of mites (Acari) and springtails (Collembola) using the proportion of mentions between trophic resources and taxa included in such orders. For example, if a species has ten records on the consumption of the same trophic resource, the selection of this food item is likely a reflection of the use of the resource. Then, if we gathered the information available from different species of the same genus and the food items consumed by them, we could assign it to the potential diet for the genus. Similarly, the resource use of the genera within a family can be thought of as reflecting the potential diet of the family.
 
 That is, the diet of higher taxonomic hierarchies will be constituted by the sum of the resources used by the lower taxonomic levels.
 
@@ -230,7 +230,8 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
  consumption, of which 16 were associated with the taxonomic level of
  the family, 105 to the genus level, and 474 to the species level.
 
-![The number of records in the literature assigning each one of the 13 trophic resources to a microarthropods taxon as shown in Table 1. Colors in the columns refer to the method used to assign those trophic resources to a particular taxon. Methods as in Fig. 2.](Figures/Recursos_ByMetodo.png){width="5.116666666666666in" height="5.116666666666666in"}
+
+![The number of records in the literature assigning each of the 13 trophic resources to a microarthropod taxon, as shown in Table 1. The colors in the columns refer to the method used to assign those trophic resources to a particular taxon, as shown in Fig. 2. The resource abbreviations are: sap. fun. = saprophytic fungi; m. fau = microfauna; bac = bacteria; liter = litter; coll = springtail; plant = plant tissue; mites = mites; myco = mycorrhizal fungi; humus = humus; carrion = invertebrate carrion; eggs = invertebrate eggs; enchy = enchytraeids; larvae = larvae.](Figures/Recursos_ByMetodo.png){width="5.116666666666666in" height="5.116666666666666in"}
 
  Laboratory observations (the most used method), mention the use of the
  thirteen trophic resources (Figure 3) in which the order of importance
@@ -250,44 +251,30 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
  eggs - enchytraeids, as food resources. These methods rarely mention
  the consumption of Mycorrhizal fungi and rarely the use of humus.
 
-<!-- CORRECTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ONLY SPECIES -->
+\newpage
+
 \scriptsize
-\begin{longtable}[]{@{}lcccccccccccccccccc@{}}
-\caption{Number of families, genera and species asociated with trophic resources. The letters represent the main orders of Acari and Collembola: M, Mesostigmata; S, Sarcoptiformes; T, Trombidiformes; A, Arthropleona; N, Neelipleona; Sy, Symphypleona. Because the diet is reported a different taxonomic levels, it could be that in some cases there are more families or genera reported than species. For example there are 10 families of Trombidiformes (T) that consume invertebrate eggs, but there are only 2 genera, and 1 species. }\\
+\begin{longtable}[]{@{}lccccccccccccccccccccc@{}}
+\caption{Number of families, genera and species asociated with trophic resources. The letters represent the main orders of Acari and Collembola: M, Mesostigmata; S, Sarcoptiformes; T, Trombidiformes; Opilioacarida, O; A, Arthropleona; N, Neelipleona; Sy, Symphypleona. Because the diet is reported a different taxonomic levels, it could be that in some cases there are more families or genera reported than species. For example there are 10 families of Trombidiformes (T) that consume invertebrate eggs, but there are only 2 genera, and 1 species. }\\
 \toprule
-\textbf{Trophic Resource} & \multicolumn{6}{l}{FAMILY} & \multicolumn{6}{l}{GENERA} & \multicolumn{6}{l}{SPECIES} \\ \addlinespace
-& M & S & T & A & N & Sy & M & S & T & A & N & Sy & M & S & T & A & N &
+\textbf{Trophic Resource} & \multicolumn{7}{l}{FAMILY} & \multicolumn{7}{l}{GENERA} & \multicolumn{7}{l}{SPECIES} \\ \addlinespace
+& M & S & T & O & A & N & Sy & M & S & T & O & A & N & Sy & M & S & T & A & N &
 Sy \\ \addlinespace
-\midrule
-\endhead
-\textbf{Total} & 34 & 82 & 32 & 9 & 1 & 3 & 89 & 157 & 28 & 58 & 2 & 10
-& 136 & 264 & 22 & 154 & 1 & 13 \\ \addlinespace
-\textbf{Saprophytic fungi} & 7 & 68 & 10 & 9 & 1 & 2 & 11 & 120 & 10 &
-54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace
-\textbf{Microfauna} & 32 & 26 & 23 & 8 & 0 & 0 & 80 & 40 & 4 & 33 & 0 &
-0 & 106 & 47 & 0 & 39 & 0 & 0 \\ \addlinespace
-\textbf{Bacteria} & 4 & 55 & 6 & 9 & 1 & 2 & 4 & 91 & 7 & 38 & 2 & 5 & 3
-& 109 & 7 & 67 & 1 & 5 \\ \addlinespace
-\textbf{Litter} & 0 & 43 & 0 & 8 & 1 & 3 & 0 & 79 & 0 & 35 & 1 & 6 & 0 &
-124 & 0 & 59 & 1 & 5 \\ \addlinespace
-\textbf{Mycorrhizal fungi} & 2 & 31 & 3 & 7 & 0 & 1 & 1 & 44 & 0 & 28 &
-0 & 2 & 0 & 54 & 0 & 46 & 0 & 2 \\ \addlinespace
-\textbf{Plant tissue} & 0 & 42 & 5 & 7 & 0 & 2 & 0 & 72 & 4 & 20 & 0 & 7
-& 0 & 100 & 3 & 26 & 0 & 7 \\ \addlinespace
-\textbf{Springtails} & 24 & 0 & 27 & 2 & 0 & 0 & 53 & 0 & 13 & 3 & 0 & 0
-& 80 & 0 & 9 & 4 & 0 & 0 \\ \addlinespace
-\textbf{Mites} & 21 & 0 & 26 & 1 & 0 & 0 & 54 & 0 & 10 & 1 & 0 & 0 & 81
-& 0 & 7 & 0 & 0 & 0 \\ \addlinespace
-\textbf{Larvae} & 12 & 0 & 9 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 41 &
-0 & 0 & 0 & 0 & 0 \\ \addlinespace
-\textbf{Humus} & 0 & 24 & 2 & 8 & 1 & 2 & 0 & 27 & 0 & 26 & 1 & 3 & 0 &
-28 & 0 & 49 & 1 & 3 \\ \addlinespace
-\textbf{Invertebrate eggs} & 15 & 0 & 10 & 3 & 0 & 0 & 33 & 0 & 2 & 5 &
-0 & 0 & 52 & 0 & 1 & 4 & 0 & 0 \\ \addlinespace
-\textbf{Enchytraeids} & 17 & 0 & 7 & 4 & 0 & 0 & 41 & 0 & 0 & 4 & 0 & 0
-& 46 & 0 & 0 & 3 & 0 & 0 \\ \addlinespace
-\textbf{Invertebrate carrion} & 5 & 22 & 2 & 6 & 1 & 2 & 9 & 30 & 0 & 28
-& 1 & 3 & 11 & 31 & 0 & 40 & 1 & 4 \\ \addlinespace
+\midrule \endhead 
+\textbf{Total} & 34 & 82 & 32 & 0 & 9 & 1 & 3 & 89 & 157 & 28 & 0 & 58 & 2 & 10 & 136 & 264 & 22 & 154 & 1 & 13 \\ \addlinespace 
+\textbf{Saprophytic fungi} & 7 & 68 & 10 & 0 & 9 & 1 & 2 & 11 & 120 & 10 & 1 & 54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace 
+\textbf{Microfauna} & 32 & 26 & 23 & 1 & 8 & 0 & 0 & 80 & 40 & 4 & 0& 33& 0& 0& 106& 47& 0& 39& 0& 0 \\ \addlinespace 
+\textbf{Bacteria} & 4& 55& 6& 0& 9& 1& 2& 4& 91& 7& 0& 38& 2& 5& 3& 109& 7& 67& 1& 5 \\ \addlinespace 
+\textbf{Litter} & 0& 43& 0& 0& 8& 1& 3& 0& 79& 0& 0& 35& 1& 6& 0& 124& 0& 59& 1& 5 \\ \addlinespace 
+\textbf{Mycorrhizal fungi} & 2& 31& 3& 0& 7& 0& 1& 1& 44& 0& 0& 28& 0& 2& 0& 54& 0& 46& 0& 2 \\ \addlinespace 
+\textbf{Plant tissue} & 0& 42& 5& 0& 7& 0& 2& 0& 72& 4& 0& 20& 0& 7& 0& 100& 3& 26& 0& 7 \\ \addlinespace 
+\textbf{Springtails} & 24& 0& 27& 3 & 2& 0& 0& 53& 0& 13& 0& 3& 0& 0& 80& 0& 9& 4& 0& 0 \\ \addlinespace 
+\textbf{Mites} & 21 & 0 & 26 & 2 & 1 & 0 & 0 & 54 & 0 & 10 & 0 & 1 & 0 & 0 & 81 & 0 & 7 & 0 & 0 & 0  \\ \addlinespace 
+\textbf{Larvae} & 12 & 0 & 9 & 2 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 0 & 41 & 0 & 0 & 0 & 0 & 0 \\ \addlinespace
+\textbf{Humus}             & 0  & 24 & 2 & 0 & 8 & 1 & 2 & 0 & 27 & 0 & 0 & 26 & 1 & 3 & 0 & 28 & 0 & 49 & 1 & 3 \\ \addlinespace
+\textbf{Invertebrate eggs} & 15 & 0 & 10 & 2 & 3 & 0 & 0 & 33 & 0 & 2 & 0 & 5 & 0 & 0 & 52 & 0 & 1 & 4 & 0 & 0 \\ \addlinespace
+\textbf{Enchytraeids}        & 17 & 0 & 7  & 2 & 4 & 0 & 0 & 41 & 0 & 0 & 0 & 4 & 0 & 0 & 46 & 0 & 0 & 3 & 0 & 0 \\ \addlinespace
+\textbf{Invertebrate carrion} & 5 & 22 & 2 & 0 & 6 & 1 & 2 & 9 & 30 & 0 & 0 & 28 & 1 & 3 & 11 & 31 & 0 & 40 & 1 & 4 \\ \addlinespace
 \bottomrule
 \end{longtable}
 \normalsize
