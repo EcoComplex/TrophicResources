@@ -57,7 +57,7 @@ Provide further comments here:
 2. Does the review article provide a good overview of the development of the field while providing insights on its future development?<br><br>Please list the historical developments of likely future scenarios that the author(s) should add or emphasize more. Please number each suggestion so that the author(s) can more easily respond.
 
 Reviewer #1: The article provides a good insight into the historical development of the field. Regarding future development, information gaps are identified.
-
+<!--VNV esto tendriamos que agregar?, nunca se me ocurrio hablar de perspectiva a futuro, recuerdo que hay un grafico con cuadrantes, estariamos en el cuadrante que implica que hay tanta informacion que hay q sintetizar, pero se debe sugerir que cada region ecologica poseea estudios de ensayo de lab complementados con isotopos y enzimas, es lo que se me ocurre para perspectiva futura y ademas, esto permitirá que las redes de interacciones locales sean precisas -->
 Reviewer #2: Mark as appropriate with an X:
 Not Applicable [x] No and here is how they should be improved [] Yes, there is no need for improvement []
 Provide further comments here:
@@ -103,17 +103,21 @@ Reviewer #1: The manuscript is well written; clear and easy to read. However the
 
 Linea 51 (Tabla1). Mites' description is not clear, it seems to exclude Oribatida. I suggest simply putting “Juvenile and adults Mites”.
 
->> Corregir??? 
+>> Corregir???, VNV: me gusta mas como lo dejo yo, es más detallado sobre los traits de la presa, el dice que parece excluir a los oribatidos y no es así, sino que animales muy duros son muy dificiles de ser consumidos, entre los oribatidos existe una gran diversidad y alguno son mas duros que otros...
 
 In the legend of figure 3, I suggest detailing the names of the resources.
 
 >> Corregir
+VNV: sap. fun. = saprophytic fungi ; m. fau = microfauna; bac= bacterias
+liter==; coll= springtail; plant= Plant tissue; mites ==; myco= Mycorrhyzal fungi; humus==; carrion= invertebrate carrion; eggs= Invertebrate eggs; enchy= Enchytraeids; larvae==
+
+
 
 Línea 64: Acari instead of Arachnida?
 
 >> Habria que poner "Parasitiformes" y "Acariformes"
 
-
+VNV: hay que colocar solo Acari, el mismo lo dice.
 
 --------------------
 
