@@ -138,21 +138,21 @@ Based on this allocation strategy, we developed a database presented in Suppleme
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **Trophic Resource**        **Description**                                                                                            **Total consumer records (%)**    Family   Genera    Species                    
 -------------------------- ---------------------------------------------------------------------------------------------------------- --------------------------------- -------- --------- ---------
-**Saprophytic fungi**      They are ubiquitous soil fungi that break down organic matter.^c^                                          **595 (19.7)**                    **16**   **105**   **474**
+**Saprophytic fungi**      They are ubiquitous soil fungi that break down organic matter.^c^                                          **599 (19.8)**                    **16**   **105**   **478**
                                                                                                                                                                                            
-**Microfauna**             Soil nematodes and protozoa, tardigrades, rotifers, and other edaphic microfauna.^e^                       **468 (15.6)**                    **34**   **140**   **294**
+**Microfauna**             Soil nematodes and protozoa, tardigrades, rotifers, and other edaphic microfauna.^e^                       **468 (15.5)**                    **34**   **140**   **294**
                                                                                                                                                                                            
-**Bacteria**               They include bacteria with enormous autotrophic and heterotrophic capacities.^b^                           **325 (10.8)**                    **7**    **63**    **255**
+**Bacteria**               They include bacteria with enormous autotrophic and heterotrophic capacities.^b^                           **325 (10.7)**                    **7**    **63**    **255**
                                                                                                                                                                                            
 **Litter**                 Dead plant tissue accumulated in the soil with different degrees of fragmentation and decomposition.^a^    **311 (10.3)**                    **4**    **30**    **277**
 
-**Springtails**            Juvenile and adult springtails.                                                                            **246 (8.2)**                     **50**   **58**    **138**
+**Springtails**            Juvenile and adult springtails.                                                                            **246 (8.1)**                     **50**   **58**    **138**
                                                                                                                                                                                            
-**Plant tissue**           Includes non-vascular plants (mosses, lichens, etc.), live roots, and seedlings.                           **199 (6.6)**                     **2**    **25**    **172**
+**Plant tissue**           Includes non-vascular plants (mosses, lichens, etc.), live roots, and seedlings.                           **200 (6.6)**                     **2**    **25**    **173**
                                                                                                                                                                                            
 **Mites**                  Juvenile and adults Mites.^f^                                                                              **193 (6.4)**                     **40**   **37**    **116**
 
-**Mycorrhizal fungi**      Symbiotic fungal hyphae with plant roots. ^i^                                                              **152 (4.9)**                     **6**    **19**    **127**
+**Mycorrhizal fungi**      Symbiotic fungal hyphae with plant roots. ^i^                                                              **156 (5.2)**                     **6**    **19**    **131**
                                                                                                                                                                                            
 **Humus**                  Complex and amorphous organic matter with a high degree of decomposition: debris, fecal pellets, etc.^d^   **121 (4)**                       **2**    **8**     **111**
 
@@ -180,14 +180,14 @@ The calculations, graphs, and tables were prepared using Microsoft Excel and R S
 
 ## Results
 
-Out of the 3015 research papers initially recovered, 196 were found to meet our criteria (see ESM III). A total of 133 articles from the 196 selected publications (ESM I) mention the countries in which the studies were carried out. Out of those, 1 article belongs to the Ethiopian region, 3 to the Neotropical region, 3 to the Oriental region, 7 to the Australian region, 34 to the Nearctic region, 75 are all located in the Palearctic region, and the remaining 10 are from the Antarctic region. (Figure 1). This is important to highlight because the species strongly vary depending on the biogeographic region. There are 106 publications mentioning the environments in which the studies were conducted; from these 59 were temperate forests, 3 tropical forests, 21 grasslands, 23 agroecosystems, and 11 deserts.
+Out of the 3015 research papers initially recovered, 200 were found to meet our criteria (see ESM III). A total of 133 articles from the 200 selected publications (ESM I) mention the countries in which the studies were carried out. Out of those, 1 article belongs to the Ethiopian region, 3 to the Neotropical region, 3 to the Oriental region, 7 to the Australian region, 34 to the Nearctic region, 75 are all located in the Palearctic region, and the remaining 10 are from the Antarctic region. (Figure 1). This is important to highlight because the species strongly vary depending on the biogeographic region. There are 106 publications mentioning the environments in which the studies were conducted; from these 59 were temperate forests, 3 tropical forests, 21 grasslands, 23 agroecosystems, and 11 deserts.
 
 ![World map showing the distribution of records assigning
  trophic resources to soil microarthropods, largely unexplored outside Europe
  and the United States.](Figures/world_records.png){width="5.0in"
  height="2.5194444444444444in"}
 
-We obtained a total of 3015 records on trophic relationships (ESM II), with Acari contributing 2218 records (73.57%), and within this number, the majority (50.86%) corresponds to Sarcoptiformes. According to the taxonomic resolution, data of 170 species, 30 genera and 2 families of Collembola and 412 species, 131 genera and 49 families of Acari were obtained.
+We obtained a total of 3024 records on trophic relationships (ESM II), with Acari contributing 2218 records (73.34%), and within this number, the majority (50.86%) corresponds to Sarcoptiformes. According to the taxonomic resolution, data of 170 species, 30 genera and 2 families of Collembola and 412 species, 131 genera and 49 families of Acari were obtained.
 
 
 ### Methods used for trophic resources identification
@@ -221,8 +221,8 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
 
 #### Resources identified by empirical evidence
 
- The main resource mentioned corresponds to saprophytic fungi (19.7%)
- followed by microfauna (15.6%), bacteria (10.8%), and litter (10.3%),
+ The main resource mentioned corresponds to saprophytic fungi (19.8%)
+ followed by microfauna (15.5%), bacteria (10.7%), and litter (10.3%),
  the records for mites, collembola, enchytraeidae, larvae, and eggs
  accumulate 725 mentions (24%) (Table 1). It is worth noting that a
  higher number of records have been taken to the species level. For
@@ -240,7 +240,7 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
  larvae of invertebrates that accumulate 82.3 percent. For this empirical
  method, the main resources correspond to typical resources of
  predatory animals except for saprophytic fungi, the main taxa
- mentioned is Mesostigmata. The stacked bars (Figure 3) show the different proportions in which the methods provide evidence of the use of a resource, if the contribution of each method is considered according to the number of citations in the bibliography, they are counted in decreasing order: direct observations (706 records) > intestinal content (639) > isotopes (591) > laboratory tests (503) > enzymes (178) > food preference tests (131 records). 
+ mentioned is Mesostigmata. The stacked bars (Figure 3) show the different proportions in which the methods provide evidence of the use of a resource, if the contribution of each method is considered according to the number of citations in the bibliography, they are counted in decreasing order: direct observations (706 records) > intestinal content (639) > isotopes (591) > laboratory tests (503) > enzymes (178) > food preference tests (140 records). 
 
  The methodologies that use laboratory studies, i.e. laboratory tests,
  laboratory observations, and food preference tests, provide direct
@@ -249,36 +249,36 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
  methods are the ones that most frequently mention the use of animal
  resources, springtails - mites - invertebrate larvae - invertebrate
  eggs - enchytraeids, as food resources. These methods rarely mention
- the consumption of Mycorrhizal fungi and rarely the use of humus.
+ the consumption of mycorrhizal fungi and rarely the use of humus.
 
 \newpage
 
 \scriptsize
 \begin{longtable}[]{@{}lccccccccccccccccccccc@{}}
-\caption{Number of families, genera and species asociated with trophic resources. The letters represent the main orders of Acari and Collembola: M, Mesostigmata; S, Sarcoptiformes; T, Trombidiformes; Opilioacarida, O; A, Arthropleona; N, Neelipleona; Sy, Symphypleona. Because the diet is reported a different taxonomic levels, it could be that in some cases there are more families or genera reported than species. For example there are 10 families of Trombidiformes (T) that consume invertebrate eggs, but there are only 2 genera, and 1 species. }\\
+\caption{Number of families, genera and species asociated with trophic resources. The letters represent the main orders of Acari and Collembola: M, Mesostigmata; S, Sarcoptiformes; T, Trombidiformes; O, Opilioacarida; A, Arthropleona; N, Neelipleona; Sy, Symphypleona. Because the diet is reported a different taxonomic levels, it could be that in some cases there are more families or genera reported than species. For example there are 10 families of Trombidiformes (T) that consume invertebrate eggs, but there are only 2 genera, and 1 species. }\\
 \toprule
 \textbf{Trophic Resource} & \multicolumn{7}{l}{FAMILY} & \multicolumn{7}{l}{GENERA} & \multicolumn{7}{l}{SPECIES} \\ \addlinespace
-& M & S & T & O & A & N & Sy & M & S & T & O & A & N & Sy & M & S & T & A & N &
+& M & S & T & O & A & N & Sy & M & S & T & O & A & N & Sy & M & S & T & O & A & N &
 Sy \\ \addlinespace
 \midrule \endhead 
-\textbf{Total} & 34 & 82 & 32 & 0 & 9 & 1 & 3 & 89 & 157 & 28 & 0 & 58 & 2 & 10 & 136 & 264 & 22 & 154 & 1 & 13 \\ \addlinespace 
-\textbf{Saprophytic fungi} & 7 & 68 & 10 & 0 & 9 & 1 & 2 & 11 & 120 & 10 & 1 & 54 & 1 & 7 & 7 & 160 & 3 & 119 & 1 & 8 \\ \addlinespace 
-\textbf{Microfauna} & 32 & 26 & 23 & 1 & 8 & 0 & 0 & 80 & 40 & 4 & 0& 33& 0& 0& 106& 47& 0& 39& 0& 0 \\ \addlinespace 
-\textbf{Bacteria} & 4& 55& 6& 0& 9& 1& 2& 4& 91& 7& 0& 38& 2& 5& 3& 109& 7& 67& 1& 5 \\ \addlinespace 
-\textbf{Litter} & 0& 43& 0& 0& 8& 1& 3& 0& 79& 0& 0& 35& 1& 6& 0& 124& 0& 59& 1& 5 \\ \addlinespace 
-\textbf{Mycorrhizal fungi} & 2& 31& 3& 0& 7& 0& 1& 1& 44& 0& 0& 28& 0& 2& 0& 54& 0& 46& 0& 2 \\ \addlinespace 
-\textbf{Plant tissue} & 0& 42& 5& 0& 7& 0& 2& 0& 72& 4& 0& 20& 0& 7& 0& 100& 3& 26& 0& 7 \\ \addlinespace 
-\textbf{Springtails} & 24& 0& 27& 3 & 2& 0& 0& 53& 0& 13& 0& 3& 0& 0& 80& 0& 9& 4& 0& 0 \\ \addlinespace 
-\textbf{Mites} & 21 & 0 & 26 & 2 & 1 & 0 & 0 & 54 & 0 & 10 & 0 & 1 & 0 & 0 & 81 & 0 & 7 & 0 & 0 & 0  \\ \addlinespace 
-\textbf{Larvae} & 12 & 0 & 9 & 2 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 0 & 41 & 0 & 0 & 0 & 0 & 0 \\ \addlinespace
-\textbf{Humus}             & 0  & 24 & 2 & 0 & 8 & 1 & 2 & 0 & 27 & 0 & 0 & 26 & 1 & 3 & 0 & 28 & 0 & 49 & 1 & 3 \\ \addlinespace
-\textbf{Invertebrate eggs} & 15 & 0 & 10 & 2 & 3 & 0 & 0 & 33 & 0 & 2 & 0 & 5 & 0 & 0 & 52 & 0 & 1 & 4 & 0 & 0 \\ \addlinespace
-\textbf{Enchytraeids}        & 17 & 0 & 7  & 2 & 4 & 0 & 0 & 41 & 0 & 0 & 0 & 4 & 0 & 0 & 46 & 0 & 0 & 3 & 0 & 0 \\ \addlinespace
-\textbf{Invertebrate carrion} & 5 & 22 & 2 & 0 & 6 & 1 & 2 & 9 & 30 & 0 & 0 & 28 & 1 & 3 & 11 & 31 & 0 & 40 & 1 & 4 \\ \addlinespace
+\textbf{Total} & 34 & 82 & 32 & 5 & 9 & 1 & 3 & 89 & 157 & 28 & 1 & 58 & 2 & 10 & 136 & 264 & 22 & 0 & 154 & 1 & 13 \\ \addlinespace 
+\textbf{Saprophytic fungi} & 7 & 68 & 10 & 0 & 9 & 1 & 2 & 11 & 120 & 10 & 1 & 54 & 1 & 7 & 7 & 160 & 3 & 0 & 119 & 1 & 8 \\ \addlinespace 
+\textbf{Microfauna} & 32 & 26 & 23 & 1 & 8 & 0 & 0 & 80 & 40 & 4 & 0& 33& 0& 0& 106& 47& 0& 0 & 39& 0& 0 \\ \addlinespace 
+\textbf{Bacteria} & 4& 55& 6& 0& 9& 1& 2& 4& 91& 7& 0& 38& 2& 5& 3& 109& 7& 0 &67& 1& 5 \\ \addlinespace 
+\textbf{Litter} & 0& 43& 0& 0& 8& 1& 3& 0& 79& 0& 0& 35& 1& 6& 0& 124& 0& 0 &59& 1& 5 \\ \addlinespace 
+\textbf{Mycorrhizal fungi} & 2& 31& 3& 0& 7& 0& 1& 1& 44& 0& 0& 28& 0& 2& 0& 54& 0& 0 &46& 0& 2 \\ \addlinespace 
+\textbf{Plant tissue} & 0& 42& 5& 0& 7& 0& 2& 0& 72& 4& 0& 20& 0& 7& 0& 100& 3& 0&26& 0& 7 \\ \addlinespace 
+\textbf{Springtails} & 24& 0& 27& 3 & 2& 0& 0& 53& 0& 13& 0& 3& 0& 0& 80& 0& 9& 0 &4& 0& 0 \\ \addlinespace 
+\textbf{Mites} & 21 & 0 & 26 & 2 & 0 & 0 & 0 & 54 & 0 & 10 & 0 & 0 & 0 & 0 & 81 & 0 & 7 & 0 &0 & 0 & 0  \\ \addlinespace 
+\textbf{Larvae} & 12 & 0 & 9 & 2 & 0 & 0 & 0 & 32 & 0 & 0 & 0 & 0 & 0 & 0 & 41 & 0 & 0 & 0 &0 & 0 & 0 \\ \addlinespace
+\textbf{Humus}             & 0  & 24 & 2 & 0 & 8 & 1 & 2 & 0 & 27 & 0 & 0 & 26 & 1 & 3 & 0 & 28 & 0 & 0 &49 & 1 & 3 \\ \addlinespace
+\textbf{Invertebrate eggs} & 15 & 0 & 10 & 2 & 3 & 0 & 0 & 33 & 0 & 2 & 0 & 5 & 0 & 0 & 52 & 0 & 1 & 0 &4 & 0 & 0 \\ \addlinespace
+\textbf{Enchytraeids}        & 17 & 0 & 7  & 2 & 4 & 0 & 0 & 41 & 0 & 0 & 0 & 4 & 0 & 0 & 46 & 0 & 0 & 0 &3 & 0 & 0 \\ \addlinespace
+\textbf{Invertebrate carrion} & 5 & 22 & 2 & 0 & 6 & 1 & 2 & 9 & 30 & 0 & 0 & 28 & 1 & 3 & 11 & 31 & 0 & 0 &40 & 1 & 4 \\ \addlinespace
 \bottomrule
 \end{longtable}
 \normalsize
-
+<!--En esta tabla (Tabla 2), al no haber especies nuevas queda igual, solo agregue la columna opilioacarida en la que corresponde a especies, para que quede similar a las demas -->
 ### Use of trophic resources by soil microarthropods
 
  It is interesting to note that at the family level, the most numerous
@@ -289,8 +289,8 @@ Sy \\ \addlinespace
  records. At the species level, the main resource mentioned is
  saprophytic fungi.
 
- The use of trophic resources in the six main orders mentioned in the
- literature (3 orders of Collembola and 3 orders of Acari) are divided
+ The use of trophic resources in the seven main orders mentioned in the
+ literature (3 orders of Collembola and 4 orders of Acari) are divided
  into their families, genera, and species in a nested way (Table 2).
  For example, for the order Symphypleona (Sy), the empirical evidence
  studies 13 species included in 10 genera within 3 families. In this
@@ -315,7 +315,7 @@ The empirical evidence that addresses the trophic study of Arthropleona (Collemb
 ![Bipartite graph showing the use of trophic resources by the main orders of Acari and Collembola. Upper nodes: Acari and Collembola orders as in Table 2. Lower nodes: trophic resources. The thickness and intensity of the lines give an idea of the proportion of mentions in the available literature about their use of trophic resources. Resource names as in Tables 1 and 2.](Figures/Bi_Orden_Recurso.png){width="5.4125in"
  height="3.6083333333333334in"}
 
- Figure 4 presents the proportion of resources used by the main 3 mite
+ Figure 4 presents the proportion of resources used by the main 4 mite
  orders and 3 Collembola orders, as found in the literature. For
  instance, the resource of saprophytic fungi is the main constituent of
  the diet of the Arthropleona, being the bacteria, the litter, the
