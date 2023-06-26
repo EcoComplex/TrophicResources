@@ -122,9 +122,9 @@ For searching in Google Scholar we used:
  search returned 2170 titles (September 3, 2021).
 
 
-We also included general review publications and textbooks to provide information on the use of trophic resources from sources that may not be readily available, resulting in 97 more titles.
+We also included general review publications and textbooks to provide information on the use of trophic resources from sources that may not be readily available, resulting in 97 more titles. Some further additional publications were suggested by reviewers (4).
 
-The first eligibility criterion to reduce the number of records was to select those papers whose titles or abstracts relate soil microarthropods to trophic resources (425 titles). Out of those, we selected papers that effectively mention families, genera, or species of soil mites and springtails and relate them to at least one trophic resource. This resulted in 196 publications, which can be consulted in Electronic Supplementary Material I (ESM I). All the microarthropods recorded in the 196 publications cited can be found in ESM II, which is cross-referenced with ESM I. A flow diagram of the bibliography search and selection procedure is also provided as ESM III.
+The first eligibility criterion to reduce the number of records was to select those papers whose titles or abstracts relate soil microarthropods to trophic resources (425 titles). Out of those, we selected papers that effectively mention families, genera, or species of soil mites and springtails and relate them to at least one trophic resource. This resulted in 200 publications, which can be consulted in Electronic Supplementary Material I (ESM I). All the microarthropods recorded in the 200 publications cited can be found in ESM II, which is cross-referenced with ESM I. A flow diagram of the bibliography search and selection procedure is also provided as ESM III.
 
 ### Database construction
 
@@ -180,7 +180,7 @@ The calculations, graphs, and tables were prepared using Microsoft Excel and R S
 
 ## Results
 
-Out of the 3015 research papers initially recovered, 200 were found to meet our criteria (see ESM III). A total of 133 articles from the 200 selected publications (ESM I) mention the countries in which the studies were carried out. Out of those, 1 article belongs to the Ethiopian region, 3 to the Neotropical region, 3 to the Oriental region, 7 to the Australian region, 34 to the Nearctic region, 75 are all located in the Palearctic region, and the remaining 10 are from the Antarctic region. (Figure 1). This is important to highlight because the species strongly vary depending on the biogeographic region. There are 106 publications mentioning the environments in which the studies were conducted; from these 59 were temperate forests, 3 tropical forests, 21 grasslands, 23 agroecosystems, and 11 deserts.
+Out of the 3208 research documents initially recovered, 200 were found to meet our criteria (see ESM III). A total of 133 articles from the 200 selected publications (ESM I) mention the countries in which the studies were carried out. Out of those, 1 article belongs to the Ethiopian region, 3 to the Neotropical region, 3 to the Oriental region, 7 to the Australian region, 34 to the Nearctic region, 75 are all located in the Palearctic region, and the remaining 10 are from the Antarctic region. (Figure 1). This is important to highlight because the species strongly vary depending on the biogeographic region. There are 106 publications mentioning the environments in which the studies were conducted; from these 59 were temperate forests, 3 tropical forests, 21 grasslands, 23 agroecosystems, and 11 deserts.
 
 ![World map showing the distribution of records assigning
  trophic resources to soil microarthropods, largely unexplored outside Europe
@@ -231,7 +231,7 @@ Stable isotopes follow in importance. From these, 76.9 percent of the records me
  the family, 105 to the genus level, and 474 to the species level.
 
 
-![The number of records in the literature assigning each of the 13 trophic resources to a microarthropod taxon, as shown in Table 1. The colors in the columns refer to the method used to assign those trophic resources to a particular taxon, as shown in Fig. 2. The resource abbreviations are: sap. fun. = saprophytic fungi; m. fau = microfauna; bac = bacteria; liter = litter; coll = springtail; plant = plant tissue; mites = mites; myco = mycorrhizal fungi; humus = humus; carrion = invertebrate carrion; eggs = invertebrate eggs; enchy = enchytraeids; larvae = larvae.](Figures/Recursos_ByMetodo.png){width="5.116666666666666in" height="5.116666666666666in"}
+![The number of records in the literature assigning each of the 13 trophic resources to a microarthropod taxon, as shown in Table 1. The colors in the columns refer to the method used to assign those trophic resources to a particular taxon, as shown in Fig. 2. The resource abbreviations are: saprophytic fungi (sap. fun.), microfauna (m. fau), bacteria (bac), litter, springtail (coll), plant tissue (plant), mites, mycorrhizal fungi (myco), humus, invertebrate carrion (carrion), invertebrate eggs (eggs), enchytraeids (enchy), and larvae.](Figures/Recursos_ByMetodo.png){width="5.116666666666666in" height="5.116666666666666in"}
 
  Laboratory observations (the most used method), mention the use of the
  thirteen trophic resources (Figure 3) in which the order of importance

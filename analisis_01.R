@@ -3,7 +3,6 @@
 # Leer datos csv
 #
 require(tidyverse)
-require(forcats)
 
 data <- read_csv2("Data/ecologia_trofica.csv",locale = readr::locale(encoding = "ISO-8859-1")) %>% mutate(METHOD=ifelse(is.na(METHOD), "review", METHOD ))
 names(data)
